@@ -1,0 +1,72 @@
+{
+    "schedule" : {
+        "monday" : {
+            "class1" : {
+                "?today_day" : "Пн",
+                "time" : {
+                    "lessonTime" : {
+                    "start": "08:20",
+                        "end": "09:50"
+                    },
+                    "?parity" : "",
+                    "?room" : "",
+                    "location" : "ул.Ломоносова, д.9, лит. Е"
+                },
+                "room" : {
+                    "roomNumber" : "3207 ауд.",
+                    "location" : "ул.Ломоносова, д.9, лит. Е"
+                },
+                "lesson" : {
+                    "lessonName" : "Иностранный язык в профессиональной деятельности (Прак)",
+                    "?parity" : "",
+                    "?teacher" : "",
+                    "?href" : ""
+                }
+            },
+            "class2" : {
+                "?today_day" : "",
+                "time" : {
+                    "lessonTime" : {
+                        "start": "10:00",
+                        "end": "11:30"
+                    },
+                    "?parity" : "odd",
+                    "?room" : "2434 ауд.",                
+                    "location" : "ул.Ломоносова, д.9, лит. Е"
+                },
+                "room" : {
+                    "roomNumber" : "2434 ауд.",
+                    "location" : "ул.Ломоносова, д.9, лит. Е"
+                },
+                "lesson" : {
+                    "lessonName" : "Физика (Лаб)",
+                    "?parity" : "odd",
+                    "?teacher" : "Чистяков Виктор Владимирович",
+                    "?href" : ""
+                }
+            },
+            "class3" : {
+                "?today_day" : "",
+                "time" : {
+                    "lessonTime" : {
+                        "start": "10:00",
+                        "end": "11:30"
+                    },
+                    "?parity" : "even",
+                    "?room" : "2407 ауд.",
+                    "location" : "ул.Ломоносова, д.9, лит. Е"
+                },
+                "room" : {
+                    "roomNumber" : "2407 ауд.",
+                    "location" : "ул.Ломоносова, д.9, лит. Е"
+                },
+                "lesson" : {
+                    "lessonName" : "Физика (Прак)",
+                    "?parity" : "even",
+                    "?teacher" : "Чистяков Виктор Владимирович",
+                    "?href" : ""
+                }
+            }
+        }
+    }
+}

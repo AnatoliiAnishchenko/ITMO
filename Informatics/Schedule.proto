@@ -1,0 +1,124 @@
+message text {
+
+	message SCHEDULE {
+
+		message MONDAY {
+
+			message CLASS1 {
+				optional string today_day = 0
+
+				message TIME {
+
+					message LESSONTIME {
+						required string start = 0
+						required string end = 1
+					}
+
+					required LESSONTIME lessonTime = 0
+					optional string parity = 1
+					optional string room = 2
+					required string location = 3
+				}
+
+				required TIME time = 1
+
+				message ROOM {
+					required string roomNumber = 0
+					required string location = 1
+				}
+
+				required ROOM room = 2
+
+				message LESSON {
+					required string lessonName = 0
+					optional string parity = 1
+					optional string teacher = 2
+					optional string href = 3
+				}
+
+				required LESSON lesson = 3
+			}
+
+			required CLASS1 class1 = 0
+
+			message CLASS2 {
+				optional string today_day = 0
+
+				message TIME {
+
+					message LESSONTIME {
+						required string start = 0
+						required string end = 1
+					}
+
+					required LESSONTIME lessonTime = 0
+					optional string parity = 1
+					optional string room = 2
+					required string location = 3
+				}
+
+				required TIME time = 1
+
+				message ROOM {
+					required string roomNumber = 0
+					required string location = 1
+				}
+
+				required ROOM room = 2
+
+				message LESSON {
+					required string lessonName = 0
+					optional string parity = 1
+					optional string teacher = 2
+					optional string href = 3
+				}
+
+				required LESSON lesson = 3
+			}
+
+			required CLASS2 class2 = 1
+
+			message CLASS3 {
+				optional string today_day = 0
+
+				message TIME {
+
+					message LESSONTIME {
+						required string start = 0
+						required string end = 1
+					}
+
+					required LESSONTIME lessonTime = 0
+					optional string parity = 1
+					optional string room = 2
+					required string location = 3
+				}
+
+				required TIME time = 1
+
+				message ROOM {
+					required string roomNumber = 0
+					required string location = 1
+				}
+
+				required ROOM room = 2
+
+				message LESSON {
+					required string lessonName = 0
+					optional string parity = 1
+					optional string teacher = 2
+					optional string href = 3
+				}
+
+				required LESSON lesson = 3
+			}
+
+			required CLASS3 class3 = 2
+		}
+
+		required MONDAY monday = 0
+	}
+
+	required SCHEDULE schedule = 0
+}
+

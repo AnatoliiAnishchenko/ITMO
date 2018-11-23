@@ -16,21 +16,4 @@ class Band extends Item {
         this.breakDown();
         return new GoldPiece();
     }
-
-    @Override
-    public boolean equals(Object that) {
-        if (this == that) {
-            return true;
-        }
-        if (that == null || that.getClass() != this.getClass()) {
-            return false;
-        }
-        Band other = (Band) that;
-        return this.name.equals(other.name) && (Math.abs(this.hp - other.hp) < EPS);
-    }
-
-    @Override
-    public int hashCode() {
-        return this.name.hashCode() + Double.hashCode(this.hp);
-    }
 }

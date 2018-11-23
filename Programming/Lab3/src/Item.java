@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 abstract class Item implements Breakable, Mineable, Constants {
     protected String name;
     protected double hp; // hp is the double in range of 0 to 1
@@ -39,6 +41,20 @@ abstract class Item implements Breakable, Mineable, Constants {
     @Override
     public void restore() {
         this.hp = 1.0d;
+    }
+
+    @Override
+    public boolean equals(Object that) {
+        if (this == that) return true;
+        if (!(that instanceof Item)) return false;
+        Item item = (Item) that;
+        return Double.compare(item.hp, hp) == 0 &&
+                Objects.equals(name, item.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, hp);
     }
 
     @Override

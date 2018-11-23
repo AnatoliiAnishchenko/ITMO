@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Objects;
 
 class Person implements PickUpping, Wearing, Mining, Constants {
     private String name;
@@ -139,25 +140,23 @@ class Person implements PickUpping, Wearing, Mining, Constants {
     }
 
     @Override
-    public boolean equals(Object that) {
-        if (this == that) {
-            return true;
-        }
-        if (that == null || that.getClass() != this.getClass()) {
-            return false;
-        }
-        Person other = (Person) that;
-        return this.name.equals(other.name) && this.type.equals(other.type) &&
-                this.items.equals(other.items) && (Math.abs(this.mood - other.mood) < EPS);
-    }
-
-    @Override
     public String toString() {
         return this.type + " " + this.name;
     }
 
     @Override
+    public boolean equals(Object that) {
+        if (this == that) return true;
+        if (!(that instanceof Person)) return false;
+        Person person = (Person) that;
+        return Double.compare(person.mood, mood) == 0 &&
+                Objects.equals(name, person.name) &&
+                type == person.type &&
+                Objects.equals(getItems(), person.getItems());
+    }
+
+    @Override
     public int hashCode() {
-        return this.name.hashCode() + this.type.hashCode() + this.items.hashCode() + Double.hashCode(this.mood);
+        return Objects.hash(name, type, getItems(), mood);
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 class GoldPiece extends Item implements Comparable<GoldPiece> {
     private double size; // size is the double in range of 0 to 10
     private static int ind = 1;
@@ -41,19 +43,15 @@ class GoldPiece extends Item implements Comparable<GoldPiece> {
 
     @Override
     public boolean equals(Object that) {
-        if (this == that) {
-            return true;
-        }
-        if (that == null || that.getClass() != this.getClass()) {
-            return false;
-        }
-        GoldPiece other = (GoldPiece) that;
-        return this.name.equals(other.name) && (Math.abs(this.hp - other.hp) < EPS) &&
-                (Math.abs(this.size - other.size) < EPS);
+        if (this == that) return true;
+        if (!(that instanceof GoldPiece)) return false;
+        if (!super.equals(that)) return false;
+        GoldPiece goldPiece = (GoldPiece) that;
+        return Double.compare(goldPiece.size, size) == 0;
     }
 
     @Override
     public int hashCode() {
-        return this.name.hashCode() + Double.hashCode(this.size) + Double.hashCode(this.hp);
+        return Objects.hash(super.hashCode(), size);
     }
 }

@@ -16,21 +16,4 @@ class Sea extends Water {
         item.breakDown();
         System.out.println(prevItem + " -> " + item);
     }
-
-    @Override
-    public boolean equals(Object that) {
-        if (this == that) {
-            return true;
-        }
-        if (that == null || that.getClass() != this.getClass()) {
-            return false;
-        }
-        Sea other = (Sea) that;
-        return this.name.equals(other.name);
-    }
-
-    @Override
-    public int hashCode() {
-        return this.name.hashCode();
-    }
 }

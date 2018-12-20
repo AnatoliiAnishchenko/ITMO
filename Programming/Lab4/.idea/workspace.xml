@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3edbd854-3c41-4fe9-aac2-3bb5a6c26894" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="411365595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JAVA/" value="6" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="105" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="105" />
+          <entry key="UML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="5620" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5620" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="153" column="51" lean-forward="true" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+              <folding>
+                <element signature="e#5176#5177#0" expanded="true" />
+                <element signature="e#5227#5228#0" expanded="true" />
+                <element signature="e#5805#5806#0" expanded="true" />
+                <element signature="e#5833#5834#0" expanded="true" />
+                <element signature="e#5849#5850#0" expanded="true" />
+                <element signature="e#5888#5889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="1046.8228571428572" y="279.0">Wearing</node>
+                <node x="2174.822857142857" y="235.0">Wind</node>
+                <node x="1590.0" y="1372.0">Action</node>
+                <node x="818.6978571428573" y="235.0">Creature</node>
+                <node x="1706.8228571428572" y="279.0">LookingFor</node>
+                <node x="1547.3228571428572" y="1153.5">Person.Position</node>
+                <node x="1380.0" y="1372.0">MainStory</node>
+                <node x="1158.0" y="1372.0">EmptyGroup</node>
+                <node x="1504.8228571428572" y="268.0">PickUpping</node>
+                <node x="1259.8228571428572" y="279.0">Mining</node>
+                <node x="290.9999999999999" y="609.5">Item</node>
+                <node x="722.2738095238096" y="654.0">Plant</node>
+                <node x="158.9999999999999" y="290.5">Mineable</node>
+                <node x="1961.8228571428572" y="279.0">Movable</node>
+                <node x="0.0" y="1461.0">Throwing</node>
+                <node x="1375.3228571428572" y="1164.5">Person.Condition</node>
+                <node x="895.517857142857" y="0.0">Thing</node>
+                <node x="1886.6488095238096" y="632.0">GroupOfPersons</node>
+                <node x="388.9999999999999" y="1153.0">GoldLine</node>
+                <node x="1059.3228571428572" y="1154.0">Person.TypeOfPerson</node>
+                <node x="568.5238095238096" y="290.5">Constants</node>
+                <node x="1203.3228571428572" y="1153.5">Person.Gender</node>
+                <node x="325.9999999999999" y="268.0">Breakable</node>
+                <node x="215.0" y="1651.0">Sea</node>
+                <node x="898.0" y="1372.0">ImpossibleDirection</node>
+                <node x="430.0" y="1372.0">Area</node>
+                <node x="775.7738095238096" y="1176.0">Plant.Height</node>
+                <node x="0.0" y="1098.0">GoldPiece</node>
+                <node x="582.9999999999999" y="1187.0">Clothes</node>
+                <node x="241.0" y="1461.0">Destructing</node>
+                <node x="675.0" y="1372.0">Positionable</node>
+                <node x="222.9999999999999" y="1153.0">Ship</node>
+                <node x="1237.3228571428572" y="467.0">Person</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Plant" target="Creature">
+                  <point x="0.0" y="-103.5" />
+                  <point x="817.2738095238096" y="447.0" />
+                  <point x="866.1978571428573" y="447.0" />
+                  <point x="-47.5" y="81.0" />
+                </edge>
+                <edge source="Person" target="Constants">
+                  <point x="-115.71428571428578" y="-290.5" />
+                  <point x="1256.6085714285714" y="437.0" />
+                  <point x="664.5238095238096" y="437.0" />
+                  <point x="32.0" y="25.5" />
+                </edge>
+                <edge source="Sea" target="Area">
+                  <point x="73.66666666666669" y="-103.5" />
+                  <point x="399.1666666666667" y="1626.0" />
+                  <point x="530.0" y="1626.0" />
+                  <point x="0.0" y="114.5" />
+                </edge>
+                <edge source="Item" target="Constants">
+                  <point x="71.25" y="-148.0" />
+                  <point x="457.2499999999999" y="447.0" />
+                  <point x="600.5238095238096" y="447.0" />
+                  <point x="-32.0" y="25.5" />
+                </edge>
+                <edge source="Person" target="PickUpping">
+                  <point x="38.57142857142867" y="-290.5" />
+                  <point x="1410.8942857142858" y="427.0" />
+                  <point x="1595.8228571428572" y="427.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="GroupOfPersons" target="LookingFor">
+                  <point x="-58.75" y="-125.5" />
+                  <point x="1945.3988095238096" y="437.0" />
+                  <point x="1883.0728571428572" y="437.0" />
+                  <point x="58.75" y="37.0" />
+                </edge>
+                <edge source="Sea" target="Destructing">
+                  <point x="0.0" y="-103.5" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Person.TypeOfPerson" target="Person">
+                  <point x="0.0" y="-58.5" />
+                  <point x="1121.3228571428572" y="1078.0" />
+                  <point x="1271.0728571428572" y="1078.0" />
+                  <point x="-101.25" y="290.5" />
+                </edge>
+                <edge source="Person" target="Wearing">
+                  <point x="-38.57142857142867" y="-290.5" />
+                  <point x="1333.7514285714285" y="417.0" />
+                  <point x="1143.3228571428572" y="417.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="Sea" target="Throwing">
+                  <point x="-73.66666666666669" y="-103.5" />
+                  <point x="251.83333333333331" y="1626.0" />
+                  <point x="110.5" y="1626.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Person.Condition" target="Person">
+                  <point x="0.0" y="-48.0" />
+                  <point x="1451.3228571428572" y="1078.0" />
+                  <point x="1406.0728571428572" y="1078.0" />
+                  <point x="33.75" y="290.5" />
+                </edge>
+                <edge source="Person" target="Movable">
+                  <point x="115.71428571428578" y="-290.5" />
+                  <point x="1488.037142857143" y="447.0" />
+                  <point x="2010.0728571428572" y="447.0" />
+                  <point x="-48.25" y="37.0" />
+                </edge>
+                <edge source="Person.Position" target="Person">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1623.3228571428572" y="1078.0" />
+                  <point x="1473.5728571428572" y="1078.0" />
+                  <point x="101.25" y="290.5" />
+                </edge>
+                <edge source="Wind" target="Thing">
+                  <point x="0.0" y="-81.0" />
+                  <point x="2269.822857142857" y="215.0" />
+                  <point x="1053.8511904761904" y="215.0" />
+                  <point x="63.33333333333337" y="92.5" />
+                </edge>
+                <edge source="Person" target="Creature">
+                  <point x="-77.14285714285711" y="-290.5" />
+                  <point x="1295.18" y="427.0" />
+                  <point x="961.1978571428573" y="427.0" />
+                  <point x="47.5" y="81.0" />
+                </edge>
+                <edge source="Item" target="Mineable">
+                  <point x="-71.25" y="-148.0" />
+                  <point x="314.7499999999999" y="447.0" />
+                  <point x="231.9999999999999" y="447.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="Item" target="Thing">
+                  <point x="-23.75" y="-148.0" />
+                  <point x="362.2499999999999" y="437.0" />
+                  <point x="315.4999999999999" y="437.0" />
+                  <point x="315.4999999999999" y="205.0" />
+                  <point x="927.1845238095236" y="205.0" />
+                  <point x="-63.33333333333337" y="92.5" />
+                </edge>
+                <edge source="Ship" target="Item">
+                  <point x="0.0" y="-59.5" />
+                  <point x="295.9999999999999" y="1078.0" />
+                  <point x="362.2499999999999" y="1078.0" />
+                  <point x="-23.75" y="148.0" />
+                </edge>
+                <edge source="GoldPiece" target="Item">
+                  <point x="0.0" y="-114.5" />
+                  <point x="101.5" y="1068.0" />
+                  <point x="314.7499999999999" y="1068.0" />
+                  <point x="-71.25" y="148.0" />
+                </edge>
+                <edge source="GroupOfPersons" target="Movable">
+                  <point x="58.75" y="-125.5" />
+                  <point x="2062.8988095238096" y="447.0" />
+                  <point x="2106.572857142857" y="447.0" />
+                  <point x="48.25" y="37.0" />
+                </edge>
+                <edge source="Person" target="Mining">
+                  <point x="0.0" y="-290.5" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="Item" target="Breakable">
+                  <point x="23.75" y="-148.0" />
+                  <point x="409.7499999999999" y="447.0" />
+                  <point x="406.9999999999999" y="447.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="GoldLine" target="Item">
+                  <point x="0.0" y="-59.5" />
+                  <point x="475.9999999999999" y="1078.0" />
+                  <point x="409.7499999999999" y="1078.0" />
+                  <point x="23.75" y="148.0" />
+                </edge>
+                <edge source="Clothes" target="Item">
+                  <point x="0.0" y="-25.5" />
+                  <point x="657.4999999999999" y="1068.0" />
+                  <point x="457.2499999999999" y="1068.0" />
+                  <point x="71.25" y="148.0" />
+                </edge>
+                <edge source="Creature" target="Thing">
+                  <point x="0.0" y="-81.0" />
+                  <point x="913.6978571428573" y="215.0" />
+                  <point x="990.517857142857" y="215.0" />
+                  <point x="0.0" y="92.5" />
+                </edge>
+                <edge source="Person" target="LookingFor">
+                  <point x="77.14285714285711" y="-290.5" />
+                  <point x="1449.4657142857143" y="437.0" />
+                  <point x="1765.5728571428572" y="437.0" />
+                  <point x="-58.75" y="37.0" />
+                </edge>
+                <edge source="Person.Gender" target="Person">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1279.3228571428572" y="1078.0" />
+                  <point x="1338.5728571428572" y="1078.0" />
+                  <point x="-33.75" y="290.5" />
+                </edge>
+                <edge source="Plant.Height" target="Plant">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="103.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5056443024494144" x="1086.845424373722" y="1628.5926705981465" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>Project Files</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Person#0;class#Person#0" />
+                <element signature="method#Person#1;class#Person#0" />
+                <element signature="method#wear#0;class#Person#0" />
+                <element signature="method#getClothes#0;class#Person#0" />
+                <element signature="method#pickUp#0;class#Person#0" />
+                <element signature="method#drop#0;class#Person#0" />
+                <element signature="method#getGoldPieces#0;class#Person#0" />
+                <element signature="method#goLookingFor#0;class#Person#0" />
+                <element signature="method#lieNear#0;class#Person#0" />
+                <element signature="method#see#0;class#Person#0" />
+                <element signature="method#sleep#0;class#Person#0" />
+                <element signature="method#moveToArea#0;class#Person#0" />
+                <element signature="class#Condition#0;class#Person#0" />
+                <element signature="class#Gender#0;class#Person#0" />
+                <element signature="class#TypeOfPerson#0;class#Person#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>condition</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Constants.java" />
+        <option value="$PROJECT_DIR$/src/Breakable.java" />
+        <option value="$PROJECT_DIR$/src/PickUpping.java" />
+        <option value="$PROJECT_DIR$/src/Wearing.java" />
+        <option value="$PROJECT_DIR$/src/Water.java" />
+        <option value="$PROJECT_DIR$/src/Throwing.java" />
+        <option value="$PROJECT_DIR$/src/TypeOfPerson.java" />
+        <option value="$PROJECT_DIR$/src/Position.java" />
+        <option value="$PROJECT_DIR$/src/Movable.java" />
+        <option value="$PROJECT_DIR$/src/Action.java" />
+        <option value="$PROJECT_DIR$/src/Clothes.java" />
+        <option value="$PROJECT_DIR$/src/Positionable.java" />
+        <option value="$PROJECT_DIR$/src/Plant.java" />
+        <option value="$PROJECT_DIR$/src/Area.java" />
+        <option value="$PROJECT_DIR$/src/Thing.java" />
+        <option value="$PROJECT_DIR$/src/GroupOfPersons.java" />
+        <option value="$PROJECT_DIR$/src/GoldPiece.java" />
+        <option value="$PROJECT_DIR$/src/Mineable.java" />
+        <option value="$PROJECT_DIR$/src/Item.java" />
+        <option value="$PROJECT_DIR$/src/Ship.java" />
+        <option value="$PROJECT_DIR$/src/Destructing.java" />
+        <option value="$PROJECT_DIR$/src/Knife.java" />
+        <option value="$PROJECT_DIR$/src/Sea.java" />
+        <option value="$PROJECT_DIR$/src/LookingFor.java" />
+        <option value="$PROJECT_DIR$/src/Creature.java" />
+        <option value="$PROJECT_DIR$/src/Wind.java" />
+        <option value="$PROJECT_DIR$/src/Band.java" />
+        <option value="$PROJECT_DIR$/src/Mining.java" />
+        <option value="$PROJECT_DIR$/src/ImpossibleDirection.java" />
+        <option value="$PROJECT_DIR$/src/EmptyGroup.java" />
+        <option value="$PROJECT_DIR$/src/MainStory.java" />
+        <option value="$PROJECT_DIR$/src/Person.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545338903417" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainStory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainStory" />
+      <module name="Lab4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainStory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3edbd854-3c41-4fe9-aac2-3bb5a6c26894" name="Default Changelist" comment="" />
+      <created>1544181896249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544181896249</updated>
+      <workItem from="1544181898682" duration="306000" />
+      <workItem from="1544182318600" duration="6405000" />
+      <workItem from="1545047072748" duration="30711000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37422000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2145749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.28239202" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.20431894" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2145749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.28239202" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.20431894" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Breakable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PickUpping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wearing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Water.java" />
+    <entry file="file://$PROJECT_DIR$/src/Throwing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Positionable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TypeOfPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#158#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Clothes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#55#56#0" expanded="true" />
+            <element signature="e#83#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoldPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Destructing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="method#destruct#0;class#Sea#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mineable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LookingFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="method#Thing#1;class#Thing#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="class#Height#0;class#Plant#0" />
+            <element signature="method#Plant#0;class#Plant#0" />
+            <element signature="method#Plant#1;class#Plant#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Knife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImpossibleDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoldLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GroupOfPersons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GroupOfPersons#0;class#GroupOfPersons#0" />
+            <element signature="method#divide#0;class#GroupOfPersons#0" />
+            <element signature="method#getArea#0;class#GroupOfPersons#0" />
+            <element signature="method#moveToArea#0;class#GroupOfPersons#0" />
+            <element signature="method#setArea#0;class#GroupOfPersons#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Person#0;class#Person#0" />
+            <element signature="method#Person#1;class#Person#0" />
+            <element signature="method#wear#0;class#Person#0" />
+            <element signature="method#getClothes#0;class#Person#0" />
+            <element signature="method#pickUp#0;class#Person#0" />
+            <element signature="method#drop#0;class#Person#0" />
+            <element signature="method#getGoldPieces#0;class#Person#0" />
+            <element signature="method#goLookingFor#0;class#Person#0" />
+            <element signature="method#lieNear#0;class#Person#0" />
+            <element signature="method#see#0;class#Person#0" />
+            <element signature="method#sleep#0;class#Person#0" />
+            <element signature="method#moveToArea#0;class#Person#0" />
+            <element signature="class#Condition#0;class#Person#0" />
+            <element signature="class#Gender#0;class#Person#0" />
+            <element signature="class#TypeOfPerson#0;class#Person#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="153" column="51" lean-forward="true" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+          <folding>
+            <element signature="e#5176#5177#0" expanded="true" />
+            <element signature="e#5227#5228#0" expanded="true" />
+            <element signature="e#5805#5806#0" expanded="true" />
+            <element signature="e#5833#5834#0" expanded="true" />
+            <element signature="e#5849#5850#0" expanded="true" />
+            <element signature="e#5888#5889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="1046.8228571428572" y="279.0">Wearing</node>
+            <node x="2174.822857142857" y="235.0">Wind</node>
+            <node x="1590.0" y="1372.0">Action</node>
+            <node x="818.6978571428573" y="235.0">Creature</node>
+            <node x="1706.8228571428572" y="279.0">LookingFor</node>
+            <node x="1547.3228571428572" y="1153.5">Person.Position</node>
+            <node x="1380.0" y="1372.0">MainStory</node>
+            <node x="1158.0" y="1372.0">EmptyGroup</node>
+            <node x="1504.8228571428572" y="268.0">PickUpping</node>
+            <node x="1259.8228571428572" y="279.0">Mining</node>
+            <node x="290.9999999999999" y="609.5">Item</node>
+            <node x="722.2738095238096" y="654.0">Plant</node>
+            <node x="158.9999999999999" y="290.5">Mineable</node>
+            <node x="1961.8228571428572" y="279.0">Movable</node>
+            <node x="0.0" y="1461.0">Throwing</node>
+            <node x="1375.3228571428572" y="1164.5">Person.Condition</node>
+            <node x="895.517857142857" y="0.0">Thing</node>
+            <node x="1886.6488095238096" y="632.0">GroupOfPersons</node>
+            <node x="388.9999999999999" y="1153.0">GoldLine</node>
+            <node x="1059.3228571428572" y="1154.0">Person.TypeOfPerson</node>
+            <node x="568.5238095238096" y="290.5">Constants</node>
+            <node x="1203.3228571428572" y="1153.5">Person.Gender</node>
+            <node x="325.9999999999999" y="268.0">Breakable</node>
+            <node x="215.0" y="1651.0">Sea</node>
+            <node x="898.0" y="1372.0">ImpossibleDirection</node>
+            <node x="430.0" y="1372.0">Area</node>
+            <node x="775.7738095238096" y="1176.0">Plant.Height</node>
+            <node x="0.0" y="1098.0">GoldPiece</node>
+            <node x="582.9999999999999" y="1187.0">Clothes</node>
+            <node x="241.0" y="1461.0">Destructing</node>
+            <node x="675.0" y="1372.0">Positionable</node>
+            <node x="222.9999999999999" y="1153.0">Ship</node>
+            <node x="1237.3228571428572" y="467.0">Person</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Plant" target="Creature">
+              <point x="0.0" y="-103.5" />
+              <point x="817.2738095238096" y="447.0" />
+              <point x="866.1978571428573" y="447.0" />
+              <point x="-47.5" y="81.0" />
+            </edge>
+            <edge source="Person" target="Constants">
+              <point x="-115.71428571428578" y="-290.5" />
+              <point x="1256.6085714285714" y="437.0" />
+              <point x="664.5238095238096" y="437.0" />
+              <point x="32.0" y="25.5" />
+            </edge>
+            <edge source="Sea" target="Area">
+              <point x="73.66666666666669" y="-103.5" />
+              <point x="399.1666666666667" y="1626.0" />
+              <point x="530.0" y="1626.0" />
+              <point x="0.0" y="114.5" />
+            </edge>
+            <edge source="Item" target="Constants">
+              <point x="71.25" y="-148.0" />
+              <point x="457.2499999999999" y="447.0" />
+              <point x="600.5238095238096" y="447.0" />
+              <point x="-32.0" y="25.5" />
+            </edge>
+            <edge source="Person" target="PickUpping">
+              <point x="38.57142857142867" y="-290.5" />
+              <point x="1410.8942857142858" y="427.0" />
+              <point x="1595.8228571428572" y="427.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="GroupOfPersons" target="LookingFor">
+              <point x="-58.75" y="-125.5" />
+              <point x="1945.3988095238096" y="437.0" />
+              <point x="1883.0728571428572" y="437.0" />
+              <point x="58.75" y="37.0" />
+            </edge>
+            <edge source="Sea" target="Destructing">
+              <point x="0.0" y="-103.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Person.TypeOfPerson" target="Person">
+              <point x="0.0" y="-58.5" />
+              <point x="1121.3228571428572" y="1078.0" />
+              <point x="1271.0728571428572" y="1078.0" />
+              <point x="-101.25" y="290.5" />
+            </edge>
+            <edge source="Person" target="Wearing">
+              <point x="-38.57142857142867" y="-290.5" />
+              <point x="1333.7514285714285" y="417.0" />
+              <point x="1143.3228571428572" y="417.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="Sea" target="Throwing">
+              <point x="-73.66666666666669" y="-103.5" />
+              <point x="251.83333333333331" y="1626.0" />
+              <point x="110.5" y="1626.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Person.Condition" target="Person">
+              <point x="0.0" y="-48.0" />
+              <point x="1451.3228571428572" y="1078.0" />
+              <point x="1406.0728571428572" y="1078.0" />
+              <point x="33.75" y="290.5" />
+            </edge>
+            <edge source="Person" target="Movable">
+              <point x="115.71428571428578" y="-290.5" />
+              <point x="1488.037142857143" y="447.0" />
+              <point x="2010.0728571428572" y="447.0" />
+              <point x="-48.25" y="37.0" />
+            </edge>
+            <edge source="Person.Position" target="Person">
+              <point x="0.0" y="-59.0" />
+              <point x="1623.3228571428572" y="1078.0" />
+              <point x="1473.5728571428572" y="1078.0" />
+              <point x="101.25" y="290.5" />
+            </edge>
+            <edge source="Wind" target="Thing">
+              <point x="0.0" y="-81.0" />
+              <point x="2269.822857142857" y="215.0" />
+              <point x="1053.8511904761904" y="215.0" />
+              <point x="63.33333333333337" y="92.5" />
+            </edge>
+            <edge source="Person" target="Creature">
+              <point x="-77.14285714285711" y="-290.5" />
+              <point x="1295.18" y="427.0" />
+              <point x="961.1978571428573" y="427.0" />
+              <point x="47.5" y="81.0" />
+            </edge>
+            <edge source="Item" target="Mineable">
+              <point x="-71.25" y="-148.0" />
+              <point x="314.7499999999999" y="447.0" />
+              <point x="231.9999999999999" y="447.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="Item" target="Thing">
+              <point x="-23.75" y="-148.0" />
+              <point x="362.2499999999999" y="437.0" />
+              <point x="315.4999999999999" y="437.0" />
+              <point x="315.4999999999999" y="205.0" />
+              <point x="927.1845238095236" y="205.0" />
+              <point x="-63.33333333333337" y="92.5" />
+            </edge>
+            <edge source="Ship" target="Item">
+              <point x="0.0" y="-59.5" />
+              <point x="295.9999999999999" y="1078.0" />
+              <point x="362.2499999999999" y="1078.0" />
+              <point x="-23.75" y="148.0" />
+            </edge>
+            <edge source="GoldPiece" target="Item">
+              <point x="0.0" y="-114.5" />
+              <point x="101.5" y="1068.0" />
+              <point x="314.7499999999999" y="1068.0" />
+              <point x="-71.25" y="148.0" />
+            </edge>
+            <edge source="GroupOfPersons" target="Movable">
+              <point x="58.75" y="-125.5" />
+              <point x="2062.8988095238096" y="447.0" />
+              <point x="2106.572857142857" y="447.0" />
+              <point x="48.25" y="37.0" />
+            </edge>
+            <edge source="Person" target="Mining">
+              <point x="0.0" y="-290.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="Item" target="Breakable">
+              <point x="23.75" y="-148.0" />
+              <point x="409.7499999999999" y="447.0" />
+              <point x="406.9999999999999" y="447.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="GoldLine" target="Item">
+              <point x="0.0" y="-59.5" />
+              <point x="475.9999999999999" y="1078.0" />
+              <point x="409.7499999999999" y="1078.0" />
+              <point x="23.75" y="148.0" />
+            </edge>
+            <edge source="Clothes" target="Item">
+              <point x="0.0" y="-25.5" />
+              <point x="657.4999999999999" y="1068.0" />
+              <point x="457.2499999999999" y="1068.0" />
+              <point x="71.25" y="148.0" />
+            </edge>
+            <edge source="Creature" target="Thing">
+              <point x="0.0" y="-81.0" />
+              <point x="913.6978571428573" y="215.0" />
+              <point x="990.517857142857" y="215.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="Person" target="LookingFor">
+              <point x="77.14285714285711" y="-290.5" />
+              <point x="1449.4657142857143" y="437.0" />
+              <point x="1765.5728571428572" y="437.0" />
+              <point x="-58.75" y="37.0" />
+            </edge>
+            <edge source="Person.Gender" target="Person">
+              <point x="0.0" y="-59.0" />
+              <point x="1279.3228571428572" y="1078.0" />
+              <point x="1338.5728571428572" y="1078.0" />
+              <point x="-33.75" y="290.5" />
+            </edge>
+            <edge source="Plant.Height" target="Plant">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="103.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5056443024494144" x="1086.845424373722" y="1628.5926705981465" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lab4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

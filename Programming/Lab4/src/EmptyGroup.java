@@ -1,6 +1,4 @@
-import java.io.IOException;
-
-public class EmptyGroup extends IOException {
+public class EmptyGroup extends Exception {
     public EmptyGroup(String message) {
         super (message);
     }

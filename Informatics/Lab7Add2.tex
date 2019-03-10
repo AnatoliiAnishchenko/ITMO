@@ -1,0 +1,27 @@
+%Made by Anatolii Anishchenko
+%P3112
+\newpage
+\begin{center}
+	\begin{tikzpicture}
+		\node[state] (b1) {$b_1$};
+		\node[state, right of=b1] (b2) {$b_2$};
+		\node[state, right of=b2] (b3) {$b_3$};
+		\node[state, below of=b1] (b4) {$b_4$};
+		\node[state, right of=b4] (b5) {$b_5$};
+		\node[state, right of=b5] (b6) {$b_6$};
+	
+		\draw	(b1) edge[loop left] node {$z_1$} (b1)
+			(b1) edge[above] node {$z_3$} (b2)
+			(b1) edge[above] node {$z_2$} (b5)
+			(b2) edge[loop above] node {$z_2$} (b2)
+			(b2) edge[near start, above] node {$z_1$} (b6)
+			(b3) edge[above] node {$z_2$} (b2)
+			(b3) edge[bend left] node {$z_1$} (b6)
+			(b4) edge node {$z_1$} (b1)
+			(b4) edge[loop left] node {$z_3$} (b4)
+			(b5) edge[below] node {$z_2$} (b4)
+			(b5) edge[near start, below] node {$z_3$} (b3)
+			(b6) edge node {$z_3$} (b3)
+			(b6) edge[bend left, below] node {$z_2$} (b4);
+	\end{tikzpicture}	
+\end{center}

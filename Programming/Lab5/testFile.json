@@ -1,0 +1,35 @@
+[
+  {
+    "className" : "MoominClasses.Moomin",
+    "data" : {
+      "name" : "Snork",
+      "area" : "Beach",
+      "type" : "Gold Miner",
+      "gender" : "Male",
+      "position" : "Stand",
+      "condition" : "Normal"
+    }
+  },
+  {
+    "className" : "MoominClasses.Moomin",
+    "data" : {
+      "name" : "Moomin mom",
+      "area" : "Moomin House",
+      "type" : "Common Moomin",
+      "gender" : "Female",
+      "position" : "Stand",
+      "condition" : "Normal"
+    }
+  },
+  {
+    "className": "MoominClasses.Moomin",
+    "data": {
+      "name": "Sniff",
+      "area": "Beach",
+      "type": "Picker",
+      "gender": "Male",
+      "position": "Stand",
+      "condition": "Normal"
+    }
+  }
+]

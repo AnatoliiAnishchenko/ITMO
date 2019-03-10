@@ -30,9 +30,7 @@ import java.util.ArrayList;
  * морем обломков кораблекрушения, а настоящий золотоискатель! Снифф же тем временем сделал совсем немудреное открытие,
  * но и оно подарило ему немудреную, а все же радость: он нашел пробковый пояс -- пояс, отчасти разъеденный морской
  * водой, но пришедшийся ему как раз впору. "Ну вот, теперь я могу выйти на большую воду! -- подумал Снифф. -- Уж
- * теперь-то я наверняка научусь плавать не хуже других! То-то Муми-тролль удивится!" Чуть подальше среди скруток
- * бересты, поплавков от сетей и водорослей он нашел рогожу, почти целый ковшик и старый башмак без каблука -- бесценные
- * сокровища, когда отнимаешь их у моря!
+ * теперь-то я наверняка научусь плавать не хуже других! То-то Муми-тролль удивится!"
  */
 public class MainStory {
     public static void main(String[] args) {
@@ -80,7 +78,7 @@ public class MainStory {
         they.perform(new Action() {
             @Override
             public String describe() {
-                return "went their own way in search of good brought by the sea and the wreckage of wrecked ships";
+                return "went their own way in search of " + wreckage;
             }
         });
 
@@ -179,5 +177,7 @@ public class MainStory {
         Clothes belt = new Clothes("belt");
         sea.destruct(belt);
         sniff.wear(belt);
+        sniff.think("Well, now I can get out on the big water!");
+        sniff.think("Now I’m surely will learn how to swim better than others! That Mumi will be surprised!");
     }
 }

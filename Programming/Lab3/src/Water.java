@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-abstract class Water implements Destructing, Constants {
+abstract class Water implements Destructing {
     protected String name;
 
     @Override

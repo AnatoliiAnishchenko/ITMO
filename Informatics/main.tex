@@ -1,0 +1,29 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{setspace,amsmath}
+\usepackage[margin=1.4cm]{geometry}	
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\renewcommand\footnoterule{\hrule width \linewidth height 0.5pt}
+
+\usepackage{tikz}
+
+\usetikzlibrary{automata}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
+
+\tikzset{node distance=2.5cm, every edge/.style={draw, ->, >=stealth', auto, semithick}}
+
+%Made by Anatolii Anishchenko
+%P3112
+
+\begin{document}
+	\input{Lab7Title.tex}
+	\input{Lab7.tex}
+	\input{Lab7Add2.tex}
+\end{document}

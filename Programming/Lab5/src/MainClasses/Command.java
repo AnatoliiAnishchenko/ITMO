@@ -1,5 +1,5 @@
 package MainClasses;
 
-public interface Command extends Printable {
+public interface Command {
     void execute();
 }

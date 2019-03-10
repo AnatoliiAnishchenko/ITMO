@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClasses/MoominManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="106" column="46" lean-forward="true" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+            <state relative-caret-position="140">
+              <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1807#1808#0" expanded="true" />
@@ -73,6 +73,379 @@
                 <element signature="e#4023#4024#0" expanded="true" />
                 <element signature="e#5272#5273#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/MainClasses">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>MainClasses</OriginalElement>
+              <nodes>
+                <node x="1352.0" y="692.0">MainClasses.ShowCommand</node>
+                <node x="308.0" y="856.0">MainClasses.Main</node>
+                <node x="587.0" y="856.0">MainClasses.Printable</node>
+                <node x="2516.0" y="692.0">MainClasses.RemoveFirstCommand</node>
+                <node x="2828.0" y="692.0">MainClasses.ExitCommand</node>
+                <node x="308.0" y="681.0">MainClasses.AddCommand</node>
+                <node x="0.0" y="0.0">MainClasses.MoominManager</node>
+                <node x="1938.0" y="692.0">MainClasses.RemoveLastCommand</node>
+                <node x="1000.0" y="681.0">MainClasses.AddFromFileCommand</node>
+                <node x="1702.5" y="539.0">MainClasses.Command</node>
+                <node x="2248.0" y="692.0">MainClasses.InfoCommand</node>
+                <node x="628.0" y="681.0">MainClasses.RemoveLowerCommand</node>
+                <node x="0.0" y="856.0">MainClasses.CommandReader</node>
+                <node x="1628.0" y="670.0">MainClasses.LoadCommand</node>
+                <node x="3092.0" y="681.0">MainClasses.RemoveCommand</node>
+                <node x="0.0" y="670.0">MainClasses.SaveCommand</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="MainClasses.ShowCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-48.5" />
+                  <point x="1480.0" y="650.0" />
+                  <point x="1760.1818181818182" y="650.0" />
+                  <point x="-12.818181818181756" y="25.5" />
+                </edge>
+                <edge source="MainClasses.RemoveLastCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-48.5" />
+                  <point x="2083.0" y="650.0" />
+                  <point x="1785.8181818181818" y="650.0" />
+                  <point x="12.818181818181756" y="25.5" />
+                </edge>
+                <edge source="MainClasses.ExitCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-48.5" />
+                  <point x="2950.0" y="620.0" />
+                  <point x="1824.2727272727273" y="620.0" />
+                  <point x="51.27272727272725" y="25.5" />
+                </edge>
+                <edge source="MainClasses.SaveCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-70.5" />
+                  <point x="144.0" y="610.0" />
+                  <point x="1708.909090909091" y="610.0" />
+                  <point x="-64.09090909090901" y="25.5" />
+                </edge>
+                <edge source="MainClasses.RemoveFirstCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-48.5" />
+                  <point x="2662.0" y="630.0" />
+                  <point x="1811.4545454545455" y="630.0" />
+                  <point x="38.454545454545496" y="25.5" />
+                </edge>
+                <edge source="MainClasses.RemoveLowerCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-59.5" />
+                  <point x="804.0" y="630.0" />
+                  <point x="1734.5454545454545" y="630.0" />
+                  <point x="-38.454545454545496" y="25.5" />
+                </edge>
+                <edge source="MainClasses.RemoveCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-59.5" />
+                  <point x="3252.5" y="610.0" />
+                  <point x="1837.090909090909" y="610.0" />
+                  <point x="64.09090909090901" y="25.5" />
+                </edge>
+                <edge source="MainClasses.AddFromFileCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-59.5" />
+                  <point x="1166.0" y="640.0" />
+                  <point x="1747.3636363636363" y="640.0" />
+                  <point x="-25.63636363636374" y="25.5" />
+                </edge>
+                <edge source="MainClasses.LoadCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-70.5" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="MainClasses.AddCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-59.5" />
+                  <point x="458.0" y="620.0" />
+                  <point x="1721.7272727272727" y="620.0" />
+                  <point x="-51.27272727272725" y="25.5" />
+                </edge>
+                <edge source="MainClasses.InfoCommand" target="MainClasses.Command">
+                  <point x="0.0" y="-48.5" />
+                  <point x="2372.0" y="640.0" />
+                  <point x="1798.6363636363635" y="640.0" />
+                  <point x="25.636363636363512" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5456545654565457" x="889.0" y="839.9385080645161" />
+              <SelectedNodes>
+                <node>MainClasses.RemoveCommand</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>Project Files</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainClasses/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/MoominClasses">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>MoominClasses</OriginalElement>
+              <nodes>
+                <node x="1261.6992647058826" y="347.5">MoominClasses.Thing</node>
+                <node x="1010.0000000000001" y="682.5">MoominClasses.Breakable</node>
+                <node x="845.1921568627452" y="1669.0">MoominClasses.GoldLine</node>
+                <node x="881.5742647058826" y="0.0">MoominClasses.Saveable</node>
+                <node x="1041.75" y="1114.5">MoominClasses.Item</node>
+                <node x="2360.274264705882" y="1680.5">MoominClasses.Moomin.Condition</node>
+                <node x="2259.8571078431373" y="682.5">MoominClasses.PickUpping</node>
+                <node x="1039.1921568627452" y="1614.0">MoominClasses.GoldPiece</node>
+                <node x="1801.8571078431373" y="693.5">MoominClasses.Wearing</node>
+                <node x="456.0000000000001" y="660.0">MoominClasses.Island</node>
+                <node x="0.0" y="414.5">MoominClasses.Throwing</node>
+                <node x="678.5000000000002" y="1149.0">MoominClasses.Field.TypeOfField</node>
+                <node x="2014.8571078431373" y="693.5">MoominClasses.Mining</node>
+                <node x="844.0000000000001" y="705.0">MoominClasses.Mineable</node>
+                <node x="1431.1921568627452" y="1669.0">MoominClasses.Ship</node>
+                <node x="877.0742647058826" y="101.0">MoominClasses.MyObject</node>
+                <node x="1262.1921568627452" y="1703.0">MoominClasses.Clothes</node>
+                <node x="1899.875" y="917.0">MoominClasses.Moomin</node>
+                <node x="2421.875" y="403.0">MoominClasses.LookingFor</node>
+                <node x="2490.5071078431374" y="1137.0">MoominClasses.GroupOfMoomins</node>
+                <node x="1887.2742647058824" y="1669.5">MoominClasses.Moomin.Position</node>
+                <node x="2470.0071078431374" y="683.0">MoominClasses.Creature</node>
+                <node x="2128.274264705882" y="1658.5">MoominClasses.Moomin.Gender</node>
+                <node x="666.0000000000002" y="682.5">MoominClasses.Field</node>
+                <node x="1598.9492647058826" y="1658.5">MoominClasses.Moomin.TypeOfMoomin</node>
+                <node x="1202.375" y="594.0">MoominClasses.Plant</node>
+                <node x="2676.875" y="403.0">MoominClasses.Movable</node>
+                <node x="1307.8526960784316" y="1204.0">MoominClasses.Plant.Height</node>
+                <node x="0.0" y="1888.0">MoominClasses.Action</node>
+                <node x="187.27549019607864" y="638.0">MoominClasses.Sea</node>
+                <node x="1429.375" y="649.5">MoominClasses.Wind</node>
+                <node x="1639.375" y="705.0">MoominClasses.Constants</node>
+                <node x="241.0" y="414.5">MoominClasses.Destructing</node>
+                <node x="483.44215686274515" y="336.0">MoominClasses.Area</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="MoominClasses.Field" target="MoominClasses.Area">
+                  <point x="0.0" y="-48.0" />
+                  <point x="745.0000000000002" y="574.0" />
+                  <point x="650.1088235294119" y="574.0" />
+                  <point x="66.66666666666669" y="104.0" />
+                </edge>
+                <edge source="MoominClasses.Moomin" target="MoominClasses.PickUpping">
+                  <point x="85.20000000000005" y="-323.5" />
+                  <point x="2198.0750000000003" y="887.0" />
+                  <point x="2350.8571078431373" y="887.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="MoominClasses.Field.TypeOfField" target="MoominClasses.Field">
+                  <point x="0.0" y="-91.5" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="MoominClasses.MyObject" target="MoominClasses.Saveable">
+                  <point x="0.0" y="-92.5" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="MoominClasses.Creature" target="MoominClasses.Movable">
+                  <point x="61.33333333333326" y="-47.5" />
+                  <point x="2623.3404411764704" y="574.0" />
+                  <point x="2773.375" y="574.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="MoominClasses.Moomin" target="MoominClasses.Constants">
+                  <point x="-170.39999999999986" y="-323.5" />
+                  <point x="1942.4750000000004" y="897.0" />
+                  <point x="1735.375" y="897.0" />
+                  <point x="32.0" y="25.5" />
+                </edge>
+                <edge source="MoominClasses.Plant.Height" target="MoominClasses.Plant">
+                  <point x="0.0" y="-36.5" />
+                  <point x="1349.3526960784316" y="887.0" />
+                  <point x="1305.875" y="887.0" />
+                  <point x="0.0" y="136.5" />
+                </edge>
+                <edge source="MoominClasses.Plant" target="MoominClasses.Thing">
+                  <point x="0.0" y="-136.5" />
+                  <point x="1305.875" y="574.0" />
+                  <point x="1332.9492647058826" y="574.0" />
+                  <point x="-23.75" y="92.5" />
+                </edge>
+                <edge source="MoominClasses.Area" target="MoominClasses.MyObject">
+                  <point x="0.0" y="-104.0" />
+                  <point x="583.4421568627452" y="311.0" />
+                  <point x="924.5742647058826" y="311.0" />
+                  <point x="-47.5" y="92.5" />
+                </edge>
+                <edge source="MoominClasses.Creature" target="MoominClasses.Thing">
+                  <point x="-61.33333333333326" y="-47.5" />
+                  <point x="2500.6737745098044" y="564.0" />
+                  <point x="1427.9492647058826" y="564.0" />
+                  <point x="71.25" y="92.5" />
+                </edge>
+                <edge source="MoominClasses.Item" target="MoominClasses.Mineable">
+                  <point x="-71.25" y="-126.0" />
+                  <point x="1065.5" y="897.0" />
+                  <point x="917.0000000000001" y="897.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="MoominClasses.Item" target="MoominClasses.Constants">
+                  <point x="71.25" y="-126.0" />
+                  <point x="1208.0" y="897.0" />
+                  <point x="1671.375" y="897.0" />
+                  <point x="-32.0" y="25.5" />
+                </edge>
+                <edge source="MoominClasses.Item" target="MoominClasses.Thing">
+                  <point x="23.75" y="-126.0" />
+                  <point x="1160.5" y="897.0" />
+                  <point x="1182.5" y="897.0" />
+                  <point x="1182.5" y="574.0" />
+                  <point x="1285.4492647058826" y="574.0" />
+                  <point x="-71.25" y="92.5" />
+                </edge>
+                <edge source="MoominClasses.GoldPiece" target="MoominClasses.Item">
+                  <point x="0.0" y="-114.5" />
+                  <point x="1140.6921568627452" y="1594.0" />
+                  <point x="1113.0" y="1594.0" />
+                  <point x="-23.75" y="126.0" />
+                </edge>
+                <edge source="MoominClasses.Item" target="MoominClasses.Breakable">
+                  <point x="-23.75" y="-126.0" />
+                  <point x="1113.0" y="897.0" />
+                  <point x="1091.0" y="897.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="MoominClasses.Sea" target="MoominClasses.Throwing">
+                  <point x="-73.66666666666674" y="-92.5" />
+                  <point x="224.1088235294119" y="574.0" />
+                  <point x="110.5" y="574.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="MoominClasses.Wind" target="MoominClasses.Thing">
+                  <point x="0.0" y="-81.0" />
+                  <point x="1524.375" y="574.0" />
+                  <point x="1380.4492647058826" y="574.0" />
+                  <point x="23.75" y="92.5" />
+                </edge>
+                <edge source="MoominClasses.Clothes" target="MoominClasses.Item">
+                  <point x="0.0" y="-25.5" />
+                  <point x="1336.6921568627452" y="1594.0" />
+                  <point x="1160.5" y="1594.0" />
+                  <point x="23.75" y="126.0" />
+                </edge>
+                <edge source="MoominClasses.Moomin" target="MoominClasses.Creature">
+                  <point x="170.4000000000001" y="-323.5" />
+                  <point x="2283.275" y="897.0" />
+                  <point x="2516.0071078431374" y="897.0" />
+                  <point x="-46.0" y="47.5" />
+                </edge>
+                <edge source="MoominClasses.Thing" target="MoominClasses.MyObject">
+                  <point x="0.0" y="-92.5" />
+                  <point x="1356.6992647058826" y="311.0" />
+                  <point x="1019.5742647058826" y="311.0" />
+                  <point x="47.5" y="92.5" />
+                </edge>
+                <edge source="MoominClasses.Moomin.TypeOfMoomin" target="MoominClasses.Moomin">
+                  <point x="0.0" y="-70.0" />
+                  <point x="1721.4492647058826" y="1594.0" />
+                  <point x="1953.125" y="1594.0" />
+                  <point x="-159.75" y="323.5" />
+                </edge>
+                <edge source="MoominClasses.Sea" target="MoominClasses.Area">
+                  <point x="73.66666666666674" y="-92.5" />
+                  <point x="371.4421568627454" y="574.0" />
+                  <point x="516.7754901960784" y="574.0" />
+                  <point x="-66.66666666666669" y="104.0" />
+                </edge>
+                <edge source="MoominClasses.Ship" target="MoominClasses.Item">
+                  <point x="0.0" y="-59.5" />
+                  <point x="1504.1921568627452" y="1584.0" />
+                  <point x="1208.0" y="1584.0" />
+                  <point x="71.25" y="126.0" />
+                </edge>
+                <edge source="MoominClasses.Moomin.Gender" target="MoominClasses.Moomin">
+                  <point x="0.0" y="-70.0" />
+                  <point x="2234.274264705882" y="1594.0" />
+                  <point x="2166.125" y="1594.0" />
+                  <point x="53.25" y="323.5" />
+                </edge>
+                <edge source="MoominClasses.GroupOfMoomins" target="MoominClasses.Creature">
+                  <point x="0.0" y="-103.5" />
+                  <point x="46.0" y="47.5" />
+                </edge>
+                <edge source="MoominClasses.Moomin.Position" target="MoominClasses.Moomin">
+                  <point x="0.0" y="-59.0" />
+                  <point x="1997.7742647058824" y="1594.0" />
+                  <point x="2059.625" y="1594.0" />
+                  <point x="-53.25" y="323.5" />
+                </edge>
+                <edge source="MoominClasses.Island" target="MoominClasses.Area">
+                  <point x="0.0" y="-70.5" />
+                  <point x="551.0000000000001" y="574.0" />
+                  <point x="583.4421568627452" y="574.0" />
+                  <point x="0.0" y="104.0" />
+                </edge>
+                <edge source="MoominClasses.Moomin.Condition" target="MoominClasses.Moomin">
+                  <point x="0.0" y="-48.0" />
+                  <point x="2480.274264705882" y="1594.0" />
+                  <point x="2272.625" y="1594.0" />
+                  <point x="159.75" y="323.5" />
+                </edge>
+                <edge source="MoominClasses.Sea" target="MoominClasses.Destructing">
+                  <point x="0.0" y="-92.5" />
+                  <point x="297.77549019607864" y="574.0" />
+                  <point x="325.5" y="574.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="MoominClasses.Moomin" target="MoominClasses.Mining">
+                  <point x="0.0" y="-323.5" />
+                  <point x="2112.875" y="897.0" />
+                  <point x="2127.3571078431373" y="897.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="MoominClasses.Creature" target="MoominClasses.LookingFor">
+                  <point x="0.0" y="-47.5" />
+                  <point x="2562.0071078431374" y="574.0" />
+                  <point x="2539.375" y="574.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="MoominClasses.GoldLine" target="MoominClasses.Item">
+                  <point x="0.0" y="-59.5" />
+                  <point x="932.1921568627452" y="1594.0" />
+                  <point x="1065.5" y="1594.0" />
+                  <point x="-71.25" y="126.0" />
+                </edge>
+                <edge source="MoominClasses.Moomin" target="MoominClasses.Wearing">
+                  <point x="-85.19999999999993" y="-323.5" />
+                  <point x="2027.6750000000002" y="887.0" />
+                  <point x="1898.3571078431373" y="887.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6971187631763879" x="334.27419354838713" y="993.2741935483871" />
+              <SelectedNodes>
+                <node>MoominClasses.Area</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>Project Files</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -112,7 +485,6 @@
         <option value="$PROJECT_DIR$/src/MoominManager.java" />
         <option value="$PROJECT_DIR$/src/MoominClasses/Movable.java" />
         <option value="$PROJECT_DIR$/testFile.json" />
-        <option value="$PROJECT_DIR$/src/MainClasses/Command.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/Printable.java" />
         <option value="$PROJECT_DIR$/src/MoominClasses/Saveable.java" />
         <option value="$PROJECT_DIR$/src/MoominClasses/Thing.java" />
@@ -133,6 +505,7 @@
         <option value="$PROJECT_DIR$/db.json" />
         <option value="$PROJECT_DIR$/src/MainClasses/CommandReader.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/MoominManager.java" />
+        <option value="$PROJECT_DIR$/src/MainClasses/Command.java" />
       </list>
     </option>
   </component>
@@ -180,8 +553,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552245293215" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/json-simple-1.1.1.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552247073334" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -240,12 +613,12 @@
       <workItem from="1550997547827" duration="4693000" />
       <workItem from="1551081377174" duration="31587000" />
       <workItem from="1552208898211" duration="29000" />
-      <workItem from="1552209115842" duration="15354000" />
+      <workItem from="1552209115842" duration="17007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52477000" />
+    <option name="totallyTimeSpent" value="54130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,8 +632,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.19676113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.19676113" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.1902834" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,7 +643,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5012346" side_tool="true" weight="0.1902834" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6582996" visible="true" weight="0.20066334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6582996" visible="true" weight="0.20066334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,13 +818,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClasses/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClasses/Printable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -673,156 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/MainClasses">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>MainClasses</OriginalElement>
-          <nodes>
-            <node x="0.0" y="793.0">MainClasses.ShowCommand</node>
-            <node x="308.0" y="957.0">MainClasses.Main</node>
-            <node x="1377.5" y="517.0">MainClasses.Printable</node>
-            <node x="881.0" y="793.0">MainClasses.RemoveFirstCommand</node>
-            <node x="617.0" y="793.0">MainClasses.ExitCommand</node>
-            <node x="2741.0" y="782.0">MainClasses.AddCommand</node>
-            <node x="0.0" y="0.0">MainClasses.MoominManager</node>
-            <node x="1769.0" y="793.0">MainClasses.RemoveLastCommand</node>
-            <node x="2389.0" y="782.0">MainClasses.AddFromFileCommand</node>
-            <node x="1390.5" y="640.0">MainClasses.Command</node>
-            <node x="1193.0" y="793.0">MainClasses.InfoCommand</node>
-            <node x="0.0" y="957.0">MainClasses.CommandReader</node>
-            <node x="2079.0" y="771.0">MainClasses.LoadCommand</node>
-            <node x="276.0" y="782.0">MainClasses.RemoveCommand</node>
-            <node x="1461.0" y="771.0">MainClasses.SaveCommand</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="MainClasses.ShowCommand" target="MainClasses.Command">
-              <point x="0.0" y="-48.5" />
-              <point x="128.0" y="711.0" />
-              <point x="1397.55" y="711.0" />
-              <point x="-63.450000000000045" y="25.5" />
-            </edge>
-            <edge source="MainClasses.RemoveLastCommand" target="MainClasses.Command">
-              <point x="0.0" y="-48.5" />
-              <point x="1914.0" y="741.0" />
-              <point x="1482.15" y="741.0" />
-              <point x="21.15000000000009" y="25.5" />
-            </edge>
-            <edge source="MainClasses.ExitCommand" target="MainClasses.Command">
-              <point x="0.0" y="-48.5" />
-              <point x="739.0" y="731.0" />
-              <point x="1425.75" y="731.0" />
-              <point x="-35.25" y="25.5" />
-            </edge>
-            <edge source="MainClasses.SaveCommand" target="MainClasses.Command">
-              <point x="0.0" y="-70.5" />
-              <point x="1605.0" y="751.0" />
-              <point x="1468.05" y="751.0" />
-              <point x="7.0499999999999545" y="25.5" />
-            </edge>
-            <edge source="MainClasses.Command" target="MainClasses.Printable">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="MainClasses.RemoveFirstCommand" target="MainClasses.Command">
-              <point x="0.0" y="-48.5" />
-              <point x="1027.0" y="741.0" />
-              <point x="1439.85" y="741.0" />
-              <point x="-21.15000000000009" y="25.5" />
-            </edge>
-            <edge source="MainClasses.RemoveCommand" target="MainClasses.Command">
-              <point x="0.0" y="-59.5" />
-              <point x="436.5" y="721.0" />
-              <point x="1411.65" y="721.0" />
-              <point x="-49.34999999999991" y="25.5" />
-            </edge>
-            <edge source="MainClasses.AddFromFileCommand" target="MainClasses.Command">
-              <point x="0.0" y="-59.5" />
-              <point x="2555.0" y="721.0" />
-              <point x="1510.35" y="721.0" />
-              <point x="49.34999999999991" y="25.5" />
-            </edge>
-            <edge source="MainClasses.LoadCommand" target="MainClasses.Command">
-              <point x="0.0" y="-70.5" />
-              <point x="2224.0" y="731.0" />
-              <point x="1496.25" y="731.0" />
-              <point x="35.25" y="25.5" />
-            </edge>
-            <edge source="MainClasses.AddCommand" target="MainClasses.Command">
-              <point x="0.0" y="-59.5" />
-              <point x="2891.0" y="711.0" />
-              <point x="1524.45" y="711.0" />
-              <point x="63.450000000000045" y="25.5" />
-            </edge>
-            <edge source="MainClasses.InfoCommand" target="MainClasses.Command">
-              <point x="0.0" y="-48.5" />
-              <point x="1317.0" y="751.0" />
-              <point x="1453.95" y="751.0" />
-              <point x="-7.0499999999999545" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6123456790123457" x="371.93548387096774" y="430.93548387096774" />
-          <SelectedNodes>
-            <node>MainClasses.AddCommand</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/MoominClasses">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>MoominClasses</OriginalElement>
-          <nodes>
-            <node x="" y="">MoominClasses.Thing</node>
-            <node x="" y="">MoominClasses.Breakable</node>
-            <node x="" y="">MoominClasses.GoldLine</node>
-            <node x="" y="">MoominClasses.Saveable</node>
-            <node x="" y="">MoominClasses.Item</node>
-            <node x="" y="">MoominClasses.PickUpping</node>
-            <node x="" y="">MoominClasses.GoldPiece</node>
-            <node x="" y="">MoominClasses.Wearing</node>
-            <node x="" y="">MoominClasses.Island</node>
-            <node x="" y="">MoominClasses.Throwing</node>
-            <node x="" y="">MoominClasses.Mining</node>
-            <node x="" y="">MoominClasses.Mineable</node>
-            <node x="" y="">MoominClasses.Ship</node>
-            <node x="" y="">MoominClasses.MyObject</node>
-            <node x="" y="">MoominClasses.Clothes</node>
-            <node x="" y="">MoominClasses.Moomin</node>
-            <node x="" y="">MoominClasses.LookingFor</node>
-            <node x="" y="">MoominClasses.GroupOfMoomins</node>
-            <node x="" y="">MoominClasses.Creature</node>
-            <node x="" y="">MoominClasses.Field</node>
-            <node x="" y="">MoominClasses.Movable</node>
-            <node x="" y="">MoominClasses.Plant</node>
-            <node x="" y="">MoominClasses.Action</node>
-            <node x="" y="">MoominClasses.Sea</node>
-            <node x="" y="">MoominClasses.Wind</node>
-            <node x="" y="">MoominClasses.Constants</node>
-            <node x="" y="">MoominClasses.Destructing</node>
-            <node x="" y="">MoominClasses.Area</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6597077244258872" x="701.5" y="261.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClasses/AddFromFileCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -887,8 +1104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClasses/MoominManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="106" column="46" lean-forward="true" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+        <state relative-caret-position="140">
+          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1807#1808#0" expanded="true" />
@@ -898,6 +1115,373 @@
             <element signature="e#4023#4024#0" expanded="true" />
             <element signature="e#5272#5273#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClasses/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/MoominClasses">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>MoominClasses</OriginalElement>
+          <nodes>
+            <node x="1261.6992647058826" y="347.5">MoominClasses.Thing</node>
+            <node x="1010.0000000000001" y="682.5">MoominClasses.Breakable</node>
+            <node x="845.1921568627452" y="1669.0">MoominClasses.GoldLine</node>
+            <node x="881.5742647058826" y="0.0">MoominClasses.Saveable</node>
+            <node x="1041.75" y="1114.5">MoominClasses.Item</node>
+            <node x="2360.274264705882" y="1680.5">MoominClasses.Moomin.Condition</node>
+            <node x="2259.8571078431373" y="682.5">MoominClasses.PickUpping</node>
+            <node x="1039.1921568627452" y="1614.0">MoominClasses.GoldPiece</node>
+            <node x="1801.8571078431373" y="693.5">MoominClasses.Wearing</node>
+            <node x="456.0000000000001" y="660.0">MoominClasses.Island</node>
+            <node x="0.0" y="414.5">MoominClasses.Throwing</node>
+            <node x="678.5000000000002" y="1149.0">MoominClasses.Field.TypeOfField</node>
+            <node x="2014.8571078431373" y="693.5">MoominClasses.Mining</node>
+            <node x="844.0000000000001" y="705.0">MoominClasses.Mineable</node>
+            <node x="1431.1921568627452" y="1669.0">MoominClasses.Ship</node>
+            <node x="877.0742647058826" y="101.0">MoominClasses.MyObject</node>
+            <node x="1262.1921568627452" y="1703.0">MoominClasses.Clothes</node>
+            <node x="1899.875" y="917.0">MoominClasses.Moomin</node>
+            <node x="2421.875" y="403.0">MoominClasses.LookingFor</node>
+            <node x="2490.5071078431374" y="1137.0">MoominClasses.GroupOfMoomins</node>
+            <node x="1887.2742647058824" y="1669.5">MoominClasses.Moomin.Position</node>
+            <node x="2470.0071078431374" y="683.0">MoominClasses.Creature</node>
+            <node x="2128.274264705882" y="1658.5">MoominClasses.Moomin.Gender</node>
+            <node x="666.0000000000002" y="682.5">MoominClasses.Field</node>
+            <node x="1598.9492647058826" y="1658.5">MoominClasses.Moomin.TypeOfMoomin</node>
+            <node x="1202.375" y="594.0">MoominClasses.Plant</node>
+            <node x="2676.875" y="403.0">MoominClasses.Movable</node>
+            <node x="1307.8526960784316" y="1204.0">MoominClasses.Plant.Height</node>
+            <node x="0.0" y="1888.0">MoominClasses.Action</node>
+            <node x="187.27549019607864" y="638.0">MoominClasses.Sea</node>
+            <node x="1429.375" y="649.5">MoominClasses.Wind</node>
+            <node x="1639.375" y="705.0">MoominClasses.Constants</node>
+            <node x="241.0" y="414.5">MoominClasses.Destructing</node>
+            <node x="483.44215686274515" y="336.0">MoominClasses.Area</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="MoominClasses.Field" target="MoominClasses.Area">
+              <point x="0.0" y="-48.0" />
+              <point x="745.0000000000002" y="574.0" />
+              <point x="650.1088235294119" y="574.0" />
+              <point x="66.66666666666669" y="104.0" />
+            </edge>
+            <edge source="MoominClasses.Moomin" target="MoominClasses.PickUpping">
+              <point x="85.20000000000005" y="-323.5" />
+              <point x="2198.0750000000003" y="887.0" />
+              <point x="2350.8571078431373" y="887.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="MoominClasses.Field.TypeOfField" target="MoominClasses.Field">
+              <point x="0.0" y="-91.5" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="MoominClasses.MyObject" target="MoominClasses.Saveable">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="MoominClasses.Creature" target="MoominClasses.Movable">
+              <point x="61.33333333333326" y="-47.5" />
+              <point x="2623.3404411764704" y="574.0" />
+              <point x="2773.375" y="574.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="MoominClasses.Moomin" target="MoominClasses.Constants">
+              <point x="-170.39999999999986" y="-323.5" />
+              <point x="1942.4750000000004" y="897.0" />
+              <point x="1735.375" y="897.0" />
+              <point x="32.0" y="25.5" />
+            </edge>
+            <edge source="MoominClasses.Plant.Height" target="MoominClasses.Plant">
+              <point x="0.0" y="-36.5" />
+              <point x="1349.3526960784316" y="887.0" />
+              <point x="1305.875" y="887.0" />
+              <point x="0.0" y="136.5" />
+            </edge>
+            <edge source="MoominClasses.Plant" target="MoominClasses.Thing">
+              <point x="0.0" y="-136.5" />
+              <point x="1305.875" y="574.0" />
+              <point x="1332.9492647058826" y="574.0" />
+              <point x="-23.75" y="92.5" />
+            </edge>
+            <edge source="MoominClasses.Area" target="MoominClasses.MyObject">
+              <point x="0.0" y="-104.0" />
+              <point x="583.4421568627452" y="311.0" />
+              <point x="924.5742647058826" y="311.0" />
+              <point x="-47.5" y="92.5" />
+            </edge>
+            <edge source="MoominClasses.Creature" target="MoominClasses.Thing">
+              <point x="-61.33333333333326" y="-47.5" />
+              <point x="2500.6737745098044" y="564.0" />
+              <point x="1427.9492647058826" y="564.0" />
+              <point x="71.25" y="92.5" />
+            </edge>
+            <edge source="MoominClasses.Item" target="MoominClasses.Mineable">
+              <point x="-71.25" y="-126.0" />
+              <point x="1065.5" y="897.0" />
+              <point x="917.0000000000001" y="897.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="MoominClasses.Item" target="MoominClasses.Constants">
+              <point x="71.25" y="-126.0" />
+              <point x="1208.0" y="897.0" />
+              <point x="1671.375" y="897.0" />
+              <point x="-32.0" y="25.5" />
+            </edge>
+            <edge source="MoominClasses.Item" target="MoominClasses.Thing">
+              <point x="23.75" y="-126.0" />
+              <point x="1160.5" y="897.0" />
+              <point x="1182.5" y="897.0" />
+              <point x="1182.5" y="574.0" />
+              <point x="1285.4492647058826" y="574.0" />
+              <point x="-71.25" y="92.5" />
+            </edge>
+            <edge source="MoominClasses.GoldPiece" target="MoominClasses.Item">
+              <point x="0.0" y="-114.5" />
+              <point x="1140.6921568627452" y="1594.0" />
+              <point x="1113.0" y="1594.0" />
+              <point x="-23.75" y="126.0" />
+            </edge>
+            <edge source="MoominClasses.Item" target="MoominClasses.Breakable">
+              <point x="-23.75" y="-126.0" />
+              <point x="1113.0" y="897.0" />
+              <point x="1091.0" y="897.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="MoominClasses.Sea" target="MoominClasses.Throwing">
+              <point x="-73.66666666666674" y="-92.5" />
+              <point x="224.1088235294119" y="574.0" />
+              <point x="110.5" y="574.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="MoominClasses.Wind" target="MoominClasses.Thing">
+              <point x="0.0" y="-81.0" />
+              <point x="1524.375" y="574.0" />
+              <point x="1380.4492647058826" y="574.0" />
+              <point x="23.75" y="92.5" />
+            </edge>
+            <edge source="MoominClasses.Clothes" target="MoominClasses.Item">
+              <point x="0.0" y="-25.5" />
+              <point x="1336.6921568627452" y="1594.0" />
+              <point x="1160.5" y="1594.0" />
+              <point x="23.75" y="126.0" />
+            </edge>
+            <edge source="MoominClasses.Moomin" target="MoominClasses.Creature">
+              <point x="170.4000000000001" y="-323.5" />
+              <point x="2283.275" y="897.0" />
+              <point x="2516.0071078431374" y="897.0" />
+              <point x="-46.0" y="47.5" />
+            </edge>
+            <edge source="MoominClasses.Thing" target="MoominClasses.MyObject">
+              <point x="0.0" y="-92.5" />
+              <point x="1356.6992647058826" y="311.0" />
+              <point x="1019.5742647058826" y="311.0" />
+              <point x="47.5" y="92.5" />
+            </edge>
+            <edge source="MoominClasses.Moomin.TypeOfMoomin" target="MoominClasses.Moomin">
+              <point x="0.0" y="-70.0" />
+              <point x="1721.4492647058826" y="1594.0" />
+              <point x="1953.125" y="1594.0" />
+              <point x="-159.75" y="323.5" />
+            </edge>
+            <edge source="MoominClasses.Sea" target="MoominClasses.Area">
+              <point x="73.66666666666674" y="-92.5" />
+              <point x="371.4421568627454" y="574.0" />
+              <point x="516.7754901960784" y="574.0" />
+              <point x="-66.66666666666669" y="104.0" />
+            </edge>
+            <edge source="MoominClasses.Ship" target="MoominClasses.Item">
+              <point x="0.0" y="-59.5" />
+              <point x="1504.1921568627452" y="1584.0" />
+              <point x="1208.0" y="1584.0" />
+              <point x="71.25" y="126.0" />
+            </edge>
+            <edge source="MoominClasses.Moomin.Gender" target="MoominClasses.Moomin">
+              <point x="0.0" y="-70.0" />
+              <point x="2234.274264705882" y="1594.0" />
+              <point x="2166.125" y="1594.0" />
+              <point x="53.25" y="323.5" />
+            </edge>
+            <edge source="MoominClasses.GroupOfMoomins" target="MoominClasses.Creature">
+              <point x="0.0" y="-103.5" />
+              <point x="46.0" y="47.5" />
+            </edge>
+            <edge source="MoominClasses.Moomin.Position" target="MoominClasses.Moomin">
+              <point x="0.0" y="-59.0" />
+              <point x="1997.7742647058824" y="1594.0" />
+              <point x="2059.625" y="1594.0" />
+              <point x="-53.25" y="323.5" />
+            </edge>
+            <edge source="MoominClasses.Island" target="MoominClasses.Area">
+              <point x="0.0" y="-70.5" />
+              <point x="551.0000000000001" y="574.0" />
+              <point x="583.4421568627452" y="574.0" />
+              <point x="0.0" y="104.0" />
+            </edge>
+            <edge source="MoominClasses.Moomin.Condition" target="MoominClasses.Moomin">
+              <point x="0.0" y="-48.0" />
+              <point x="2480.274264705882" y="1594.0" />
+              <point x="2272.625" y="1594.0" />
+              <point x="159.75" y="323.5" />
+            </edge>
+            <edge source="MoominClasses.Sea" target="MoominClasses.Destructing">
+              <point x="0.0" y="-92.5" />
+              <point x="297.77549019607864" y="574.0" />
+              <point x="325.5" y="574.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="MoominClasses.Moomin" target="MoominClasses.Mining">
+              <point x="0.0" y="-323.5" />
+              <point x="2112.875" y="897.0" />
+              <point x="2127.3571078431373" y="897.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="MoominClasses.Creature" target="MoominClasses.LookingFor">
+              <point x="0.0" y="-47.5" />
+              <point x="2562.0071078431374" y="574.0" />
+              <point x="2539.375" y="574.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="MoominClasses.GoldLine" target="MoominClasses.Item">
+              <point x="0.0" y="-59.5" />
+              <point x="932.1921568627452" y="1594.0" />
+              <point x="1065.5" y="1594.0" />
+              <point x="-71.25" y="126.0" />
+            </edge>
+            <edge source="MoominClasses.Moomin" target="MoominClasses.Wearing">
+              <point x="-85.19999999999993" y="-323.5" />
+              <point x="2027.6750000000002" y="887.0" />
+              <point x="1898.3571078431373" y="887.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6971187631763879" x="334.27419354838713" y="993.2741935483871" />
+          <SelectedNodes>
+            <node>MoominClasses.Area</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/MainClasses">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>MainClasses</OriginalElement>
+          <nodes>
+            <node x="1352.0" y="692.0">MainClasses.ShowCommand</node>
+            <node x="308.0" y="856.0">MainClasses.Main</node>
+            <node x="587.0" y="856.0">MainClasses.Printable</node>
+            <node x="2516.0" y="692.0">MainClasses.RemoveFirstCommand</node>
+            <node x="2828.0" y="692.0">MainClasses.ExitCommand</node>
+            <node x="308.0" y="681.0">MainClasses.AddCommand</node>
+            <node x="0.0" y="0.0">MainClasses.MoominManager</node>
+            <node x="1938.0" y="692.0">MainClasses.RemoveLastCommand</node>
+            <node x="1000.0" y="681.0">MainClasses.AddFromFileCommand</node>
+            <node x="1702.5" y="539.0">MainClasses.Command</node>
+            <node x="2248.0" y="692.0">MainClasses.InfoCommand</node>
+            <node x="628.0" y="681.0">MainClasses.RemoveLowerCommand</node>
+            <node x="0.0" y="856.0">MainClasses.CommandReader</node>
+            <node x="1628.0" y="670.0">MainClasses.LoadCommand</node>
+            <node x="3092.0" y="681.0">MainClasses.RemoveCommand</node>
+            <node x="0.0" y="670.0">MainClasses.SaveCommand</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="MainClasses.ShowCommand" target="MainClasses.Command">
+              <point x="0.0" y="-48.5" />
+              <point x="1480.0" y="650.0" />
+              <point x="1760.1818181818182" y="650.0" />
+              <point x="-12.818181818181756" y="25.5" />
+            </edge>
+            <edge source="MainClasses.RemoveLastCommand" target="MainClasses.Command">
+              <point x="0.0" y="-48.5" />
+              <point x="2083.0" y="650.0" />
+              <point x="1785.8181818181818" y="650.0" />
+              <point x="12.818181818181756" y="25.5" />
+            </edge>
+            <edge source="MainClasses.ExitCommand" target="MainClasses.Command">
+              <point x="0.0" y="-48.5" />
+              <point x="2950.0" y="620.0" />
+              <point x="1824.2727272727273" y="620.0" />
+              <point x="51.27272727272725" y="25.5" />
+            </edge>
+            <edge source="MainClasses.SaveCommand" target="MainClasses.Command">
+              <point x="0.0" y="-70.5" />
+              <point x="144.0" y="610.0" />
+              <point x="1708.909090909091" y="610.0" />
+              <point x="-64.09090909090901" y="25.5" />
+            </edge>
+            <edge source="MainClasses.RemoveFirstCommand" target="MainClasses.Command">
+              <point x="0.0" y="-48.5" />
+              <point x="2662.0" y="630.0" />
+              <point x="1811.4545454545455" y="630.0" />
+              <point x="38.454545454545496" y="25.5" />
+            </edge>
+            <edge source="MainClasses.RemoveLowerCommand" target="MainClasses.Command">
+              <point x="0.0" y="-59.5" />
+              <point x="804.0" y="630.0" />
+              <point x="1734.5454545454545" y="630.0" />
+              <point x="-38.454545454545496" y="25.5" />
+            </edge>
+            <edge source="MainClasses.RemoveCommand" target="MainClasses.Command">
+              <point x="0.0" y="-59.5" />
+              <point x="3252.5" y="610.0" />
+              <point x="1837.090909090909" y="610.0" />
+              <point x="64.09090909090901" y="25.5" />
+            </edge>
+            <edge source="MainClasses.AddFromFileCommand" target="MainClasses.Command">
+              <point x="0.0" y="-59.5" />
+              <point x="1166.0" y="640.0" />
+              <point x="1747.3636363636363" y="640.0" />
+              <point x="-25.63636363636374" y="25.5" />
+            </edge>
+            <edge source="MainClasses.LoadCommand" target="MainClasses.Command">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="MainClasses.AddCommand" target="MainClasses.Command">
+              <point x="0.0" y="-59.5" />
+              <point x="458.0" y="620.0" />
+              <point x="1721.7272727272727" y="620.0" />
+              <point x="-51.27272727272725" y="25.5" />
+            </edge>
+            <edge source="MainClasses.InfoCommand" target="MainClasses.Command">
+              <point x="0.0" y="-48.5" />
+              <point x="2372.0" y="640.0" />
+              <point x="1798.6363636363635" y="640.0" />
+              <point x="25.636363636363512" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5456545654565457" x="889.0" y="839.9385080645161" />
+          <SelectedNodes>
+            <node>MainClasses.RemoveCommand</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

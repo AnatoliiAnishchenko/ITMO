@@ -1,6 +1,6 @@
 [
   {
-    "className": "MoominClasses.Moomin",
+    "className": "moominClasses.Moomin",
     "data": {
       "name": "Snork",
       "area": "Beach",
@@ -11,7 +11,7 @@
     }
   },
   {
-    "className": "MoominClasses.Moomin",
+    "className": "moominClasses.Moomin",
     "data": {
       "name": "Moomin mom",
       "area": "Moomin House",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "className": "MoominClasses.Moomin",
+    "className": "moominClasses.Moomin",
     "data": {
       "name": "Sniff",
       "area": "Beach",

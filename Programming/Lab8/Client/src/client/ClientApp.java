@@ -35,7 +35,7 @@ public class ClientApp extends JFrame {
 
     static Client client;
     static int clientId;
-    static String userName;
+    private static String userName;
 
     static Vector<Moomin> moomins;
 
@@ -57,6 +57,8 @@ public class ClientApp extends JFrame {
         loggedIn = false;
         clientId = -1;
         moomins = new Vector<>();
+
+        new ColorManager();
 
         Timer timer = new Timer(20000, e -> update());
 
@@ -188,6 +190,7 @@ public class ClientApp extends JFrame {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            userPanel.clear();
             clientId = -1;
             moomins = new Vector<>();
 

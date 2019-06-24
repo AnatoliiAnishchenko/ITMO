@@ -17,13 +17,11 @@ class MoominCircle extends Ellipse2D {
     private Color color;
     private Moomin moomin;
 
-    public MoominCircle(Moomin moomin) {
+    MoominCircle(Moomin moomin) {
         point = new Point(moomin.getX(), moomin.getY());
         this.width = SIZE;
         this.height = SIZE;
-        this.color = new Color((moomin.getOwnerId() * 769) % 256,
-                (moomin.getOwnerId() * 513) % 256,
-                (moomin.getOwnerId() * 1397) % 256);
+        this.color = ColorManager.getColor(moomin.getOwnerId());
         this.moomin = moomin;
     }
 
@@ -80,11 +78,11 @@ class MoominCircle extends Ellipse2D {
         return this.contains(p.getX(), p.getY());
     }
 
-    public Color getColor() {
+    Color getColor() {
         return color;
     }
 
-    public Moomin getMoomin() {
+    Moomin getMoomin() {
         return moomin;
     }
 }

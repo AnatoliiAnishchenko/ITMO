@@ -181,9 +181,7 @@ class UserPanel extends JPanel {
 
     void setUserName(String userName, int id) {
         this.userName = userName;
-        color.setBackground(new Color((id * 769) % 256,
-                (id * 513) % 256,
-                (id * 1397) % 256));
+        color.setBackground(ColorManager.getColor(id));
         updateText();
     }
 
@@ -192,7 +190,7 @@ class UserPanel extends JPanel {
     }
 
     private void updateMoomin() {
-        if (isEditable) {
+        if (isEditable && (selectedMoomin != null)) {
             removeCurMoomin(selectedMoomin);
             addMoomin();
         }
@@ -317,7 +315,7 @@ class UserPanel extends JPanel {
         return new Moomin(time, name, field, type, gender, position, condition, x, y, ClientApp.clientId);
     }
 
-    private void clear() {
+    void clear() {
         isEditable = true;
         selectedMoomin = null;
 

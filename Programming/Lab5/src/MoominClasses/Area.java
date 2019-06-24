@@ -30,16 +30,4 @@ public abstract class Area extends MyObject {
     public void setThings(ArrayList<Thing> things) {
         this.things.addAll(things);
     }
-
-    @Override
-    public boolean equals(Object that) {
-        return false;
-        //TODO
-    }
-
-    @Override
-    public int hashCode() {
-        return 0;
-        //TODO
-    }
 }

@@ -2,6 +2,7 @@ package MoominClasses;
 
 import MoominException.ImpossibleDirection;
 import org.json.simple.JSONObject;
+import java.util.HashSet;
 
 import java.util.ArrayList;
 
@@ -10,8 +11,11 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
     private Gender gender;
     private Position position;
     private Condition condition;
-
     private ArrayList<Item> items = new ArrayList<>();
+
+    private ArrayList<Field> possibleToGo;
+    private HashSet<Field> visitedFields;
+    private boolean isLookingFor;
 
     public Moomin(String name, Gender gender) {
         super(name);
@@ -34,8 +38,8 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
         this.condition = Condition.NORMAL;
     }
 
-    public Moomin(String name, Area area, TypeOfMoomin type, Gender gender, Position position, Condition condition) {
-        super(name, area);
+    public Moomin(String name, Field field, TypeOfMoomin type, Gender gender, Position position, Condition condition) {
+        super(name, field);
         this.type = type;
         this.gender = gender;
         this.position = position;
@@ -47,7 +51,7 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
             throw new IllegalArgumentException("Object is not a MoominClasses.Moomin");
         }
         String name = "";
-        Area area = null;
+        Field field = null;
         TypeOfMoomin type = null;
         Gender gender = null;
         Position position = null;
@@ -55,7 +59,7 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
         try {
             JSONObject curMoominData = (JSONObject) objJSON.get("data");
             name = (String) curMoominData.get("name");
-            area = new Field((String) curMoominData.get("area"));
+            field = new Field((String) curMoominData.get("field"));
             type = Moomin.TypeOfMoomin.strToType((String) curMoominData.get("type"));
             gender = Moomin.Gender.strToGender((String) curMoominData.get("gender"));
             position = Moomin.Position.strToPosition((String) curMoominData.get("position"));
@@ -64,7 +68,7 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
             e.printStackTrace();
         }
         setName(name);
-        setArea(area);
+        setField(field);
         setType(type);
         this.gender = gender;
         this.position = position;
@@ -164,10 +168,10 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
     }
 
     @Override
-    public void goLookingFor(Area area, Thing thing) {
+    public void goLookingFor(Field field, Thing thing) {
         try {
             println(getName() + " go looking for " + thing.getName() + ".");
-            moveToArea(area);
+            moveToField(field);
         } catch (ImpossibleDirection e) {
             System.out.println(LookingFor.discription);
         }
@@ -186,7 +190,7 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
         JSONObject curJSONObject = new JSONObject();
         JSONObject curMoominJSONData = new JSONObject();
         curMoominJSONData.put("name", getName());
-        curMoominJSONData.put("area", getArea().toString());
+        curMoominJSONData.put("area", getField().toString());
         curMoominJSONData.put("type", getType().toString());
         curMoominJSONData.put("gender", getGender().toString());
         curMoominJSONData.put("position", getPosition().toString());
@@ -205,7 +209,7 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
     public void see() {
         if (this.getPosition() == Position.LIE) {
             StringBuilder str = new StringBuilder(getName() + " see ");
-            for (Thing thing : getArea().getThings()) {
+            for (Thing thing : getField().getThings()) {
                 if (thing.getClass() == Plant.class) {
                     Plant plant = (Plant) thing;
                     if (plant.getHeight() == Plant.Height.HIGH) {
@@ -216,7 +220,7 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
             println(str + "blue sky.");
         } else if (this.getPosition() == Position.SIT) {
             StringBuilder str = new StringBuilder(getName() + " see ");
-            for (Thing thing : getArea().getThings()) {
+            for (Thing thing : getField().getThings()) {
                 str.append(thing.getName()).append(", ");
             }
             println(str + "dark walls.");
@@ -243,13 +247,13 @@ public class Moomin extends Creature implements PickUpping, Wearing, Mining, Con
     }
 
     @Override
-    public void moveToArea(Area area) {
-        if (area == null) {
+    public void moveToField(Field field) {
+        if (field == null) {
             throw new ImpossibleDirection("This is direction is not available.");
         }
 
-        println(getName() + " moved from " + getArea().getName() + " to " + area.getName() + ".");
-        setArea(area);
+        println(getName() + " moved from " + getField().getName() + " to " + field.getName() + ".");
+        setField(field);
     }
 
     @Override

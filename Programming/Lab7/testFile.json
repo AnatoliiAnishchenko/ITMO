@@ -1,0 +1,4 @@
+[
+  {"className":"moominClasses.Moomin","data":{"name":"test5","field":"Beach","type": "Picker","gender":"Male","position":"Stand","condition":"Normal"}},
+  {"className":"moominClasses.Moomin","data":{"name":"test6","field":"Rock","type":"Picker","gender":"Female","position":"Stand","condition":"Normal"}}
+]

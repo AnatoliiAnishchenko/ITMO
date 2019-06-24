@@ -7,14 +7,33 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
+import java.util.Collections;
 import java.util.Vector;
 
+/**
+ * Class that implement work of Application.
+ */
 public class MoominManager {
+    /**
+     * Collection of Moomins.
+     */
     private Vector<Moomin> moomins;
+    /**
+     * Name of the file.
+     */
     private String fileName;
+    /**
+     * JSON parser to parse and convert data.
+     */
     private JSONParser parser = new JSONParser();
+    /**
+     * Command reader that implement reading the command.
+     */
     private CommandReader cr;
 
+    /**
+     * Boolean flag: true - if we want to exit, false - if you don't want to exit.
+     */
     private boolean pause;
 
     public MoominManager(String fileName) {
@@ -56,7 +75,8 @@ public class MoominManager {
         } catch (IOException e) {
             println("Can't load data from file: " + fileName);
             println("File reading stopped.");
-
+            exit();
+            return;
         }
 
         String dataSTR = new String(fileContent);
@@ -65,6 +85,8 @@ public class MoominManager {
             dataJSON = (JSONArray) parser.parse(dataSTR);
         } catch (ParseException e) {
             println("Data in file is not a correct JSON. Check the data in file.");
+            exit();
+            return;
         }
 
         println("Data converting from JSON started.");
@@ -180,8 +202,12 @@ public class MoominManager {
      * @param moomin Already created Moomin.
      */
     void addMoomin(Moomin moomin) {
-        moomins.add(moomin);
-        println(moomin + " successfully added.");
+        if (!moomins.contains(moomin)) {
+            moomins.add(moomin);
+            println(moomin + " successfully added.");
+        } else {
+            println("Element " + moomin + " already exist.");
+        }
     }
 
     /**
@@ -189,9 +215,7 @@ public class MoominManager {
      */
     void show() {
         println("Current vector state:");
-        for (Moomin moomin : moomins) {
-            println(moomin.toString());
-        }
+        moomins.forEach(moomin -> println(moomin.toString()));
     }
 
     /**
@@ -236,11 +260,7 @@ public class MoominManager {
     void removeLower(Moomin moomin) {
         println("Deleting of elements lower than " + moomin + " started.");
 
-        for (Moomin curMoomin : moomins) {
-            if (moomin.compareTo(curMoomin) <= 0) {
-                remove(curMoomin);
-            }
-        }
+        moomins.removeIf(obj -> obj.compareTo(moomin) <= 0);
 
         println("Deleting of elements lower than " + moomin + " finished.");
     }
@@ -257,6 +277,14 @@ public class MoominManager {
         } catch (Exception e) {
             println("Can't remove moomin: " + moomin + ".");
         }
+    }
+
+    /**
+     * Sort the moomins.
+     */
+    void sort() {
+        Collections.sort(moomins);
+        println("Moomins successfully sorted.");
     }
 
     /**

@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 
 
 public class Response implements Serializable {
-
     private String doings;
     private Vector<Moomin> moomins;
 

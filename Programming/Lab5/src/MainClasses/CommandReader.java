@@ -43,6 +43,8 @@ public class CommandReader {
                 Moomin moomin = new Moomin(parseElement());
                 return new RemoveLowerCommand(manager, moomin);
             }
+            case "sort":
+                return new SortCommand(manager);
             case "info":
                 return new InfoCommand(manager);
             case "add": {

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lab5:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6d220f2d-f8df-433f-99f2-2575cdba0a18" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,179 +17,11 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/db.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret column="470" lean-forward="true" selection-start-column="470" selection-end-column="470" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/testFile.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="170">
-                    <caret line="10" column="5" lean-forward="true" selection-end-line="35" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Lab5" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainClasses/CommandReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainClasses/MoominManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#1837#1838#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#1973#1974#0" expanded="true" />
-                <element signature="e#4023#4024#0" expanded="true" />
-                <element signature="e#5272#5273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/MainClasses">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>MainClasses</OriginalElement>
-              <nodes>
-                <node x="1352.0" y="692.0">MainClasses.ShowCommand</node>
-                <node x="308.0" y="856.0">MainClasses.Main</node>
-                <node x="587.0" y="856.0">MainClasses.Printable</node>
-                <node x="2516.0" y="692.0">MainClasses.RemoveFirstCommand</node>
-                <node x="2828.0" y="692.0">MainClasses.ExitCommand</node>
-                <node x="308.0" y="681.0">MainClasses.AddCommand</node>
-                <node x="0.0" y="0.0">MainClasses.MoominManager</node>
-                <node x="1938.0" y="692.0">MainClasses.RemoveLastCommand</node>
-                <node x="1000.0" y="681.0">MainClasses.AddFromFileCommand</node>
-                <node x="1702.5" y="539.0">MainClasses.Command</node>
-                <node x="2248.0" y="692.0">MainClasses.InfoCommand</node>
-                <node x="628.0" y="681.0">MainClasses.RemoveLowerCommand</node>
-                <node x="0.0" y="856.0">MainClasses.CommandReader</node>
-                <node x="1628.0" y="670.0">MainClasses.LoadCommand</node>
-                <node x="3092.0" y="681.0">MainClasses.RemoveCommand</node>
-                <node x="0.0" y="670.0">MainClasses.SaveCommand</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="MainClasses.ShowCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-48.5" />
-                  <point x="1480.0" y="650.0" />
-                  <point x="1760.1818181818182" y="650.0" />
-                  <point x="-12.818181818181756" y="25.5" />
-                </edge>
-                <edge source="MainClasses.RemoveLastCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-48.5" />
-                  <point x="2083.0" y="650.0" />
-                  <point x="1785.8181818181818" y="650.0" />
-                  <point x="12.818181818181756" y="25.5" />
-                </edge>
-                <edge source="MainClasses.ExitCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-48.5" />
-                  <point x="2950.0" y="620.0" />
-                  <point x="1824.2727272727273" y="620.0" />
-                  <point x="51.27272727272725" y="25.5" />
-                </edge>
-                <edge source="MainClasses.SaveCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-70.5" />
-                  <point x="144.0" y="610.0" />
-                  <point x="1708.909090909091" y="610.0" />
-                  <point x="-64.09090909090901" y="25.5" />
-                </edge>
-                <edge source="MainClasses.RemoveFirstCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-48.5" />
-                  <point x="2662.0" y="630.0" />
-                  <point x="1811.4545454545455" y="630.0" />
-                  <point x="38.454545454545496" y="25.5" />
-                </edge>
-                <edge source="MainClasses.RemoveLowerCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-59.5" />
-                  <point x="804.0" y="630.0" />
-                  <point x="1734.5454545454545" y="630.0" />
-                  <point x="-38.454545454545496" y="25.5" />
-                </edge>
-                <edge source="MainClasses.RemoveCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-59.5" />
-                  <point x="3252.5" y="610.0" />
-                  <point x="1837.090909090909" y="610.0" />
-                  <point x="64.09090909090901" y="25.5" />
-                </edge>
-                <edge source="MainClasses.AddFromFileCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-59.5" />
-                  <point x="1166.0" y="640.0" />
-                  <point x="1747.3636363636363" y="640.0" />
-                  <point x="-25.63636363636374" y="25.5" />
-                </edge>
-                <edge source="MainClasses.LoadCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-70.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="MainClasses.AddCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-59.5" />
-                  <point x="458.0" y="620.0" />
-                  <point x="1721.7272727272727" y="620.0" />
-                  <point x="-51.27272727272725" y="25.5" />
-                </edge>
-                <edge source="MainClasses.InfoCommand" target="MainClasses.Command">
-                  <point x="0.0" y="-48.5" />
-                  <point x="2372.0" y="640.0" />
-                  <point x="1798.6363636363635" y="640.0" />
-                  <point x="25.636363636363512" y="25.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.5456545654565457" x="889.0" y="839.9385080645161" />
-              <SelectedNodes>
-                <node>MainClasses.RemoveCommand</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>Project Files</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClasses/Command.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -195,259 +32,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/MoominClasses">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>MoominClasses</OriginalElement>
-              <nodes>
-                <node x="1261.6992647058826" y="347.5">MoominClasses.Thing</node>
-                <node x="1010.0000000000001" y="682.5">MoominClasses.Breakable</node>
-                <node x="845.1921568627452" y="1669.0">MoominClasses.GoldLine</node>
-                <node x="881.5742647058826" y="0.0">MoominClasses.Saveable</node>
-                <node x="1041.75" y="1114.5">MoominClasses.Item</node>
-                <node x="2360.274264705882" y="1680.5">MoominClasses.Moomin.Condition</node>
-                <node x="2259.8571078431373" y="682.5">MoominClasses.PickUpping</node>
-                <node x="1039.1921568627452" y="1614.0">MoominClasses.GoldPiece</node>
-                <node x="1801.8571078431373" y="693.5">MoominClasses.Wearing</node>
-                <node x="456.0000000000001" y="660.0">MoominClasses.Island</node>
-                <node x="0.0" y="414.5">MoominClasses.Throwing</node>
-                <node x="678.5000000000002" y="1149.0">MoominClasses.Field.TypeOfField</node>
-                <node x="2014.8571078431373" y="693.5">MoominClasses.Mining</node>
-                <node x="844.0000000000001" y="705.0">MoominClasses.Mineable</node>
-                <node x="1431.1921568627452" y="1669.0">MoominClasses.Ship</node>
-                <node x="877.0742647058826" y="101.0">MoominClasses.MyObject</node>
-                <node x="1262.1921568627452" y="1703.0">MoominClasses.Clothes</node>
-                <node x="1899.875" y="917.0">MoominClasses.Moomin</node>
-                <node x="2421.875" y="403.0">MoominClasses.LookingFor</node>
-                <node x="2490.5071078431374" y="1137.0">MoominClasses.GroupOfMoomins</node>
-                <node x="1887.2742647058824" y="1669.5">MoominClasses.Moomin.Position</node>
-                <node x="2470.0071078431374" y="683.0">MoominClasses.Creature</node>
-                <node x="2128.274264705882" y="1658.5">MoominClasses.Moomin.Gender</node>
-                <node x="666.0000000000002" y="682.5">MoominClasses.Field</node>
-                <node x="1598.9492647058826" y="1658.5">MoominClasses.Moomin.TypeOfMoomin</node>
-                <node x="1202.375" y="594.0">MoominClasses.Plant</node>
-                <node x="2676.875" y="403.0">MoominClasses.Movable</node>
-                <node x="1307.8526960784316" y="1204.0">MoominClasses.Plant.Height</node>
-                <node x="0.0" y="1888.0">MoominClasses.Action</node>
-                <node x="187.27549019607864" y="638.0">MoominClasses.Sea</node>
-                <node x="1429.375" y="649.5">MoominClasses.Wind</node>
-                <node x="1639.375" y="705.0">MoominClasses.Constants</node>
-                <node x="241.0" y="414.5">MoominClasses.Destructing</node>
-                <node x="483.44215686274515" y="336.0">MoominClasses.Area</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="MoominClasses.Field" target="MoominClasses.Area">
-                  <point x="0.0" y="-48.0" />
-                  <point x="745.0000000000002" y="574.0" />
-                  <point x="650.1088235294119" y="574.0" />
-                  <point x="66.66666666666669" y="104.0" />
-                </edge>
-                <edge source="MoominClasses.Moomin" target="MoominClasses.PickUpping">
-                  <point x="85.20000000000005" y="-323.5" />
-                  <point x="2198.0750000000003" y="887.0" />
-                  <point x="2350.8571078431373" y="887.0" />
-                  <point x="0.0" y="48.0" />
-                </edge>
-                <edge source="MoominClasses.Field.TypeOfField" target="MoominClasses.Field">
-                  <point x="0.0" y="-91.5" />
-                  <point x="0.0" y="48.0" />
-                </edge>
-                <edge source="MoominClasses.MyObject" target="MoominClasses.Saveable">
-                  <point x="0.0" y="-92.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="MoominClasses.Creature" target="MoominClasses.Movable">
-                  <point x="61.33333333333326" y="-47.5" />
-                  <point x="2623.3404411764704" y="574.0" />
-                  <point x="2773.375" y="574.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="MoominClasses.Moomin" target="MoominClasses.Constants">
-                  <point x="-170.39999999999986" y="-323.5" />
-                  <point x="1942.4750000000004" y="897.0" />
-                  <point x="1735.375" y="897.0" />
-                  <point x="32.0" y="25.5" />
-                </edge>
-                <edge source="MoominClasses.Plant.Height" target="MoominClasses.Plant">
-                  <point x="0.0" y="-36.5" />
-                  <point x="1349.3526960784316" y="887.0" />
-                  <point x="1305.875" y="887.0" />
-                  <point x="0.0" y="136.5" />
-                </edge>
-                <edge source="MoominClasses.Plant" target="MoominClasses.Thing">
-                  <point x="0.0" y="-136.5" />
-                  <point x="1305.875" y="574.0" />
-                  <point x="1332.9492647058826" y="574.0" />
-                  <point x="-23.75" y="92.5" />
-                </edge>
-                <edge source="MoominClasses.Area" target="MoominClasses.MyObject">
-                  <point x="0.0" y="-104.0" />
-                  <point x="583.4421568627452" y="311.0" />
-                  <point x="924.5742647058826" y="311.0" />
-                  <point x="-47.5" y="92.5" />
-                </edge>
-                <edge source="MoominClasses.Creature" target="MoominClasses.Thing">
-                  <point x="-61.33333333333326" y="-47.5" />
-                  <point x="2500.6737745098044" y="564.0" />
-                  <point x="1427.9492647058826" y="564.0" />
-                  <point x="71.25" y="92.5" />
-                </edge>
-                <edge source="MoominClasses.Item" target="MoominClasses.Mineable">
-                  <point x="-71.25" y="-126.0" />
-                  <point x="1065.5" y="897.0" />
-                  <point x="917.0000000000001" y="897.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="MoominClasses.Item" target="MoominClasses.Constants">
-                  <point x="71.25" y="-126.0" />
-                  <point x="1208.0" y="897.0" />
-                  <point x="1671.375" y="897.0" />
-                  <point x="-32.0" y="25.5" />
-                </edge>
-                <edge source="MoominClasses.Item" target="MoominClasses.Thing">
-                  <point x="23.75" y="-126.0" />
-                  <point x="1160.5" y="897.0" />
-                  <point x="1182.5" y="897.0" />
-                  <point x="1182.5" y="574.0" />
-                  <point x="1285.4492647058826" y="574.0" />
-                  <point x="-71.25" y="92.5" />
-                </edge>
-                <edge source="MoominClasses.GoldPiece" target="MoominClasses.Item">
-                  <point x="0.0" y="-114.5" />
-                  <point x="1140.6921568627452" y="1594.0" />
-                  <point x="1113.0" y="1594.0" />
-                  <point x="-23.75" y="126.0" />
-                </edge>
-                <edge source="MoominClasses.Item" target="MoominClasses.Breakable">
-                  <point x="-23.75" y="-126.0" />
-                  <point x="1113.0" y="897.0" />
-                  <point x="1091.0" y="897.0" />
-                  <point x="0.0" y="48.0" />
-                </edge>
-                <edge source="MoominClasses.Sea" target="MoominClasses.Throwing">
-                  <point x="-73.66666666666674" y="-92.5" />
-                  <point x="224.1088235294119" y="574.0" />
-                  <point x="110.5" y="574.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="MoominClasses.Wind" target="MoominClasses.Thing">
-                  <point x="0.0" y="-81.0" />
-                  <point x="1524.375" y="574.0" />
-                  <point x="1380.4492647058826" y="574.0" />
-                  <point x="23.75" y="92.5" />
-                </edge>
-                <edge source="MoominClasses.Clothes" target="MoominClasses.Item">
-                  <point x="0.0" y="-25.5" />
-                  <point x="1336.6921568627452" y="1594.0" />
-                  <point x="1160.5" y="1594.0" />
-                  <point x="23.75" y="126.0" />
-                </edge>
-                <edge source="MoominClasses.Moomin" target="MoominClasses.Creature">
-                  <point x="170.4000000000001" y="-323.5" />
-                  <point x="2283.275" y="897.0" />
-                  <point x="2516.0071078431374" y="897.0" />
-                  <point x="-46.0" y="47.5" />
-                </edge>
-                <edge source="MoominClasses.Thing" target="MoominClasses.MyObject">
-                  <point x="0.0" y="-92.5" />
-                  <point x="1356.6992647058826" y="311.0" />
-                  <point x="1019.5742647058826" y="311.0" />
-                  <point x="47.5" y="92.5" />
-                </edge>
-                <edge source="MoominClasses.Moomin.TypeOfMoomin" target="MoominClasses.Moomin">
-                  <point x="0.0" y="-70.0" />
-                  <point x="1721.4492647058826" y="1594.0" />
-                  <point x="1953.125" y="1594.0" />
-                  <point x="-159.75" y="323.5" />
-                </edge>
-                <edge source="MoominClasses.Sea" target="MoominClasses.Area">
-                  <point x="73.66666666666674" y="-92.5" />
-                  <point x="371.4421568627454" y="574.0" />
-                  <point x="516.7754901960784" y="574.0" />
-                  <point x="-66.66666666666669" y="104.0" />
-                </edge>
-                <edge source="MoominClasses.Ship" target="MoominClasses.Item">
-                  <point x="0.0" y="-59.5" />
-                  <point x="1504.1921568627452" y="1584.0" />
-                  <point x="1208.0" y="1584.0" />
-                  <point x="71.25" y="126.0" />
-                </edge>
-                <edge source="MoominClasses.Moomin.Gender" target="MoominClasses.Moomin">
-                  <point x="0.0" y="-70.0" />
-                  <point x="2234.274264705882" y="1594.0" />
-                  <point x="2166.125" y="1594.0" />
-                  <point x="53.25" y="323.5" />
-                </edge>
-                <edge source="MoominClasses.GroupOfMoomins" target="MoominClasses.Creature">
-                  <point x="0.0" y="-103.5" />
-                  <point x="46.0" y="47.5" />
-                </edge>
-                <edge source="MoominClasses.Moomin.Position" target="MoominClasses.Moomin">
-                  <point x="0.0" y="-59.0" />
-                  <point x="1997.7742647058824" y="1594.0" />
-                  <point x="2059.625" y="1594.0" />
-                  <point x="-53.25" y="323.5" />
-                </edge>
-                <edge source="MoominClasses.Island" target="MoominClasses.Area">
-                  <point x="0.0" y="-70.5" />
-                  <point x="551.0000000000001" y="574.0" />
-                  <point x="583.4421568627452" y="574.0" />
-                  <point x="0.0" y="104.0" />
-                </edge>
-                <edge source="MoominClasses.Moomin.Condition" target="MoominClasses.Moomin">
-                  <point x="0.0" y="-48.0" />
-                  <point x="2480.274264705882" y="1594.0" />
-                  <point x="2272.625" y="1594.0" />
-                  <point x="159.75" y="323.5" />
-                </edge>
-                <edge source="MoominClasses.Sea" target="MoominClasses.Destructing">
-                  <point x="0.0" y="-92.5" />
-                  <point x="297.77549019607864" y="574.0" />
-                  <point x="325.5" y="574.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="MoominClasses.Moomin" target="MoominClasses.Mining">
-                  <point x="0.0" y="-323.5" />
-                  <point x="2112.875" y="897.0" />
-                  <point x="2127.3571078431373" y="897.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="MoominClasses.Creature" target="MoominClasses.LookingFor">
-                  <point x="0.0" y="-47.5" />
-                  <point x="2562.0071078431374" y="574.0" />
-                  <point x="2539.375" y="574.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="MoominClasses.GoldLine" target="MoominClasses.Item">
-                  <point x="0.0" y="-59.5" />
-                  <point x="932.1921568627452" y="1594.0" />
-                  <point x="1065.5" y="1594.0" />
-                  <point x="-71.25" y="126.0" />
-                </edge>
-                <edge source="MoominClasses.Moomin" target="MoominClasses.Wearing">
-                  <point x="-85.19999999999993" y="-323.5" />
-                  <point x="2027.6750000000002" y="887.0" />
-                  <point x="1898.3571078431373" y="887.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.6971187631763879" x="334.27419354838713" y="993.2741935483871" />
-              <SelectedNodes>
-                <node>MoominClasses.Area</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>Project Files</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/MoominClasses/Moomin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1598">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#hashCode#0;class#Moomin#0" />
+                <element signature="class#Condition#0;class#Moomin#0" />
+                <element signature="class#Gender#0;class#Moomin#0" />
+                <element signature="class#Position#0;class#Moomin#0" />
+                <element signature="class#TypeOfMoomin#0;class#Moomin#0" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MainClasses/MoominManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="262" column="60" selection-start-line="262" selection-start-column="60" selection-end-line="262" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoominClasses/Island.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoominClasses/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoominClasses/Thing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoominClasses/MyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoominClasses/Area.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainClasses.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -471,6 +134,21 @@
       <find>print</find>
       <find>successfully ad</find>
       <find>cnt</find>
+      <find>start</find>
+      <find>loadDa</find>
+      <find>forEa</find>
+      <find>removeIf</find>
+      <find>sort</find>
+      <find>remove</find>
+      <find>removeLo</find>
+      <find>addData</find>
+      <find>addMoo</find>
+      <find>eq</find>
+      <find>implementation</find>
+      <find>addMomin</find>
+      <find>addMoom</find>
+      <find>for</find>
+      <find>impleme</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -483,13 +161,9 @@
         <option value="$PROJECT_DIR$/src/Moomin.java" />
         <option value="$PROJECT_DIR$/src/MoominClasses/GroupOfMoomins.java" />
         <option value="$PROJECT_DIR$/src/MoominManager.java" />
-        <option value="$PROJECT_DIR$/src/MoominClasses/Movable.java" />
-        <option value="$PROJECT_DIR$/testFile.json" />
         <option value="$PROJECT_DIR$/src/MainClasses/Printable.java" />
         <option value="$PROJECT_DIR$/src/MoominClasses/Saveable.java" />
-        <option value="$PROJECT_DIR$/src/MoominClasses/Thing.java" />
         <option value="$PROJECT_DIR$/src/MoominClasses/MyObject.java" />
-        <option value="$PROJECT_DIR$/src/MoominClasses/Moomin.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/ShowCommand.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/AddCommand.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/RemoveFirstCommand.java" />
@@ -503,9 +177,16 @@
         <option value="$PROJECT_DIR$/src/MainClasses/AddFromFileCommand.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/RemoveLowerCommand.java" />
         <option value="$PROJECT_DIR$/db.json" />
-        <option value="$PROJECT_DIR$/src/MainClasses/CommandReader.java" />
-        <option value="$PROJECT_DIR$/src/MainClasses/MoominManager.java" />
         <option value="$PROJECT_DIR$/src/MainClasses/Command.java" />
+        <option value="$PROJECT_DIR$/src/MainClasses/CommandReader.java" />
+        <option value="$PROJECT_DIR$/src/MainClasses/SortCommand.java" />
+        <option value="$PROJECT_DIR$/src/MoominClasses/Area.java" />
+        <option value="$PROJECT_DIR$/src/MainClasses/MoominManager.java" />
+        <option value="$PROJECT_DIR$/src/MoominClasses/Thing.java" />
+        <option value="$PROJECT_DIR$/src/MoominClasses/Movable.java" />
+        <option value="$PROJECT_DIR$/src/MoominClasses/Moomin.java" />
+        <option value="$PROJECT_DIR$/src/MoominClasses/LookingFor.java" />
+        <option value="$PROJECT_DIR$/testFile.json" />
       </list>
     </option>
   </component>
@@ -520,6 +201,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -542,8 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,12 +234,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552247073334" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553401924422" />
+    <property name="last_opened_file_path" value="C:/Programm/JavaFX-Sound-Application" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -613,12 +294,22 @@
       <workItem from="1550997547827" duration="4693000" />
       <workItem from="1551081377174" duration="31587000" />
       <workItem from="1552208898211" duration="29000" />
-      <workItem from="1552209115842" duration="17007000" />
+      <workItem from="1552209115842" duration="17556000" />
+      <workItem from="1552288292481" duration="443000" />
+      <workItem from="1552288838039" duration="7982000" />
+      <workItem from="1552374230986" duration="882000" />
+      <workItem from="1553400489842" duration="1422000" />
+      <workItem from="1553500477540" duration="3776000" />
+      <workItem from="1555832197465" duration="359000" />
+      <workItem from="1555833342973" duration="196000" />
+      <workItem from="1555834354535" duration="361000" />
+      <workItem from="1556292764163" duration="218000" />
+      <workItem from="1556306018364" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54130000" />
+    <option name="totallyTimeSpent" value="70359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,9 +323,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.19676113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.22672065" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.1902834" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -643,7 +333,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5012346" side_tool="true" weight="0.1902834" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6582996" visible="true" weight="0.20066334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65587044" weight="0.39800996" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,7 +342,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3417004" side_tool="true" visible="true" weight="0.20066334" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34412956" side_tool="true" weight="0.17412935" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,64 +354,46 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.20566802" />
+      <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.1902834" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5012346" side_tool="true" weight="0.1902834" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65587044" weight="0.39800996" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49959514" weight="0.3283582" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34412956" side_tool="true" visible="true" weight="0.17412935" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Destructing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/GoldLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/GoldPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Island.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MoominClasses/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/LookingFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Mineable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -809,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Movable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab5.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -841,50 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Creature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Thing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Moomin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#hashCode#0;class#Moomin#0" />
-            <element signature="e#6810#6811#0" expanded="true" />
-            <element signature="e#6873#6874#0" expanded="true" />
-            <element signature="class#Condition#0;class#Moomin#0" />
-            <element signature="class#Gender#0;class#Moomin#0" />
-            <element signature="class#Position#0;class#Moomin#0" />
-            <element signature="class#TypeOfMoomin#0;class#Moomin#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,19 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClasses/ExitCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClasses/SaveCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1001,11 +609,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9" x="-231.44444444444446" y="105.61111111111111" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="-231.0" y="106.0" />
           <SelectedNodes>
             <node>mdl-Lab5</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1026,7 +635,7 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.6345381526104418" x="-148.4430379746836" y="368.2278481012658" />
+          <settings layout="Hierarchic Group" zoom="0.6345381526104418" x="-148.0" y="368.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1073,55 +682,6 @@
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testFile.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="470" lean-forward="true" selection-start-column="470" selection-end-column="470" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClasses/CommandReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClasses/MoominManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#4023#4024#0" expanded="true" />
-            <element signature="e#5272#5273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainClasses/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1363,7 +923,7 @@
               <point x="0.0" y="37.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.6971187631763879" x="334.27419354838713" y="993.2741935483871" />
+          <settings layout="Hierarchic Group" zoom="0.6971187631763879" x="334.0" y="993.0" />
           <SelectedNodes>
             <node>MoominClasses.Area</node>
           </SelectedNodes>
@@ -1385,103 +945,246 @@
           <ID>JAVA</ID>
           <OriginalElement>MainClasses</OriginalElement>
           <nodes>
-            <node x="1352.0" y="692.0">MainClasses.ShowCommand</node>
+            <node x="0.0" y="692.0">MainClasses.ShowCommand</node>
             <node x="308.0" y="856.0">MainClasses.Main</node>
             <node x="587.0" y="856.0">MainClasses.Printable</node>
-            <node x="2516.0" y="692.0">MainClasses.RemoveFirstCommand</node>
-            <node x="2828.0" y="692.0">MainClasses.ExitCommand</node>
-            <node x="308.0" y="681.0">MainClasses.AddCommand</node>
+            <node x="881.0" y="692.0">MainClasses.RemoveFirstCommand</node>
+            <node x="617.0" y="692.0">MainClasses.ExitCommand</node>
+            <node x="3113.0" y="681.0">MainClasses.AddCommand</node>
             <node x="0.0" y="0.0">MainClasses.MoominManager</node>
-            <node x="1938.0" y="692.0">MainClasses.RemoveLastCommand</node>
-            <node x="1000.0" y="681.0">MainClasses.AddFromFileCommand</node>
-            <node x="1702.5" y="539.0">MainClasses.Command</node>
-            <node x="2248.0" y="692.0">MainClasses.InfoCommand</node>
-            <node x="628.0" y="681.0">MainClasses.RemoveLowerCommand</node>
+            <node x="1769.0" y="692.0">MainClasses.RemoveLastCommand</node>
+            <node x="2389.0" y="681.0">MainClasses.AddFromFileCommand</node>
+            <node x="1534.5" y="539.0">MainClasses.Command</node>
+            <node x="1193.0" y="692.0">MainClasses.InfoCommand</node>
+            <node x="2741.0" y="681.0">MainClasses.RemoveLowerCommand</node>
             <node x="0.0" y="856.0">MainClasses.CommandReader</node>
-            <node x="1628.0" y="670.0">MainClasses.LoadCommand</node>
-            <node x="3092.0" y="681.0">MainClasses.RemoveCommand</node>
-            <node x="0.0" y="670.0">MainClasses.SaveCommand</node>
+            <node x="2079.0" y="670.0">MainClasses.LoadCommand</node>
+            <node x="276.0" y="681.0">MainClasses.RemoveCommand</node>
+            <node x="1461.0" y="670.0">MainClasses.SaveCommand</node>
           </nodes>
           <notes />
           <edges>
             <edge source="MainClasses.ShowCommand" target="MainClasses.Command">
               <point x="0.0" y="-48.5" />
-              <point x="1480.0" y="650.0" />
-              <point x="1760.1818181818182" y="650.0" />
-              <point x="-12.818181818181756" y="25.5" />
+              <point x="128.0" y="610.0" />
+              <point x="1540.909090909091" y="610.0" />
+              <point x="-64.09090909090901" y="25.5" />
             </edge>
             <edge source="MainClasses.RemoveLastCommand" target="MainClasses.Command">
               <point x="0.0" y="-48.5" />
-              <point x="2083.0" y="650.0" />
-              <point x="1785.8181818181818" y="650.0" />
+              <point x="1914.0" y="650.0" />
+              <point x="1617.8181818181818" y="650.0" />
               <point x="12.818181818181756" y="25.5" />
             </edge>
             <edge source="MainClasses.ExitCommand" target="MainClasses.Command">
               <point x="0.0" y="-48.5" />
-              <point x="2950.0" y="620.0" />
-              <point x="1824.2727272727273" y="620.0" />
-              <point x="51.27272727272725" y="25.5" />
+              <point x="739.0" y="630.0" />
+              <point x="1566.5454545454545" y="630.0" />
+              <point x="-38.454545454545496" y="25.5" />
             </edge>
             <edge source="MainClasses.SaveCommand" target="MainClasses.Command">
               <point x="0.0" y="-70.5" />
-              <point x="144.0" y="610.0" />
-              <point x="1708.909090909091" y="610.0" />
-              <point x="-64.09090909090901" y="25.5" />
+              <point x="0.0" y="25.5" />
             </edge>
             <edge source="MainClasses.RemoveFirstCommand" target="MainClasses.Command">
               <point x="0.0" y="-48.5" />
-              <point x="2662.0" y="630.0" />
-              <point x="1811.4545454545455" y="630.0" />
-              <point x="38.454545454545496" y="25.5" />
+              <point x="1027.0" y="640.0" />
+              <point x="1579.3636363636363" y="640.0" />
+              <point x="-25.63636363636374" y="25.5" />
             </edge>
             <edge source="MainClasses.RemoveLowerCommand" target="MainClasses.Command">
               <point x="0.0" y="-59.5" />
-              <point x="804.0" y="630.0" />
-              <point x="1734.5454545454545" y="630.0" />
-              <point x="-38.454545454545496" y="25.5" />
+              <point x="2917.0" y="620.0" />
+              <point x="1656.2727272727273" y="620.0" />
+              <point x="51.27272727272725" y="25.5" />
             </edge>
             <edge source="MainClasses.RemoveCommand" target="MainClasses.Command">
               <point x="0.0" y="-59.5" />
-              <point x="3252.5" y="610.0" />
-              <point x="1837.090909090909" y="610.0" />
-              <point x="64.09090909090901" y="25.5" />
+              <point x="436.5" y="620.0" />
+              <point x="1553.7272727272727" y="620.0" />
+              <point x="-51.27272727272725" y="25.5" />
             </edge>
             <edge source="MainClasses.AddFromFileCommand" target="MainClasses.Command">
               <point x="0.0" y="-59.5" />
-              <point x="1166.0" y="640.0" />
-              <point x="1747.3636363636363" y="640.0" />
-              <point x="-25.63636363636374" y="25.5" />
+              <point x="2555.0" y="630.0" />
+              <point x="1643.4545454545455" y="630.0" />
+              <point x="38.454545454545496" y="25.5" />
             </edge>
             <edge source="MainClasses.LoadCommand" target="MainClasses.Command">
               <point x="0.0" y="-70.5" />
-              <point x="0.0" y="25.5" />
+              <point x="2224.0" y="640.0" />
+              <point x="1630.6363636363635" y="640.0" />
+              <point x="25.636363636363512" y="25.5" />
             </edge>
             <edge source="MainClasses.AddCommand" target="MainClasses.Command">
               <point x="0.0" y="-59.5" />
-              <point x="458.0" y="620.0" />
-              <point x="1721.7272727272727" y="620.0" />
-              <point x="-51.27272727272725" y="25.5" />
+              <point x="3263.0" y="610.0" />
+              <point x="1669.090909090909" y="610.0" />
+              <point x="64.09090909090901" y="25.5" />
             </edge>
             <edge source="MainClasses.InfoCommand" target="MainClasses.Command">
               <point x="0.0" y="-48.5" />
-              <point x="2372.0" y="640.0" />
-              <point x="1798.6363636363635" y="640.0" />
-              <point x="25.636363636363512" y="25.5" />
+              <point x="1317.0" y="650.0" />
+              <point x="1592.1818181818182" y="650.0" />
+              <point x="-12.818181818181756" y="25.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.5456545654565457" x="889.0" y="839.9385080645161" />
+          <settings layout="Hierarchic Group" zoom="0.5456545654565457" x="889.0" y="841.0" />
           <SelectedNodes>
             <node>MainClasses.RemoveCommand</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
-            <Category>Properties</Category>
             <Category>Methods</Category>
+            <Category>Properties</Category>
             <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>Project Files</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClasses/CommandReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClasses/SortCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClasses/ExitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Mineable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/LookingFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="470" selection-start-column="470" selection-end-column="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClasses/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Moomin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#hashCode#0;class#Moomin#0" />
+            <element signature="class#Condition#0;class#Moomin#0" />
+            <element signature="class#Gender#0;class#Moomin#0" />
+            <element signature="class#Position#0;class#Moomin#0" />
+            <element signature="class#TypeOfMoomin#0;class#Moomin#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Island.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Thing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoominClasses/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainClasses.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClasses/MoominManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="262" column="60" selection-start-line="262" selection-start-column="60" selection-end-line="262" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,10 +1194,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Lab5:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -132,7 +132,7 @@ public class MoominManager {
         this.commandsManager = commandsManager;
     }
 
-    public void setMoomins(Vector<Moomin> moomins) {
+    public synchronized void setMoomins(Vector<Moomin> moomins) {
         this.moomins = moomins;
         initTime = System.currentTimeMillis();
     }
@@ -148,7 +148,7 @@ public class MoominManager {
         return dataJSON;
     }
 
-    public Vector<Moomin> createMoomin(String arguments) {
+    public synchronized Vector<Moomin> createMoomin(String arguments) {
         System.err.println(arguments);
         Vector<Moomin> vector = new Vector<>();
         JSONArray dataJSON = null;

@@ -1,31 +1,31 @@
 package MoominClasses;
 
 public abstract class Thing extends MyObject {
-    private Area area;
+    private Field field;
 
     public Thing() {
         super();
-        this.area = null;
+        this.field = null;
     }
 
     public Thing(String name) {
         super(name);
-        this.area = null;
+        this.field = null;
     }
 
-    public Thing(String name, Area area) {
+    public Thing(String name, Field field) {
         super(name);
-        this.area = area;
-        area.addThing(this);
+        this.field = field;
+        field.addThing(this);
     }
 
-    public void setArea(Area area) {
-        this.area = area;
-        area.addThing(this);
+    public void setField(Field field) {
+        this.field = field;
+        field.addThing(this);
     }
 
-    public Area getArea() {
-        return area;
+    public Field getField() {
+        return field;
     }
 
     @Override
@@ -34,7 +34,7 @@ public abstract class Thing extends MyObject {
         if (!(o instanceof Thing)) return false;
         if (!super.equals(o)) return false;
         Thing thing = (Thing) o;
-        return getArea().equals(thing.getArea());
+        return getField().equals(thing.getField());
     }
 
     @Override
@@ -45,6 +45,6 @@ public abstract class Thing extends MyObject {
 
     @Override
     public String toString() {
-        return getName() + " in " + getArea();
+        return getName() + " in " + getField();
     }
 }

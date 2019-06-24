@@ -3,9 +3,9 @@ package MoominClasses;
 import MoominException.EmptyGroup;
 
 public interface Movable {
-    Area getArea() throws EmptyGroup;
+    Field getField() throws EmptyGroup;
 
-    void moveToArea(Area area);
+    void moveToField(Field field);
 
-    void setArea(Area area);
+    void setField(Field field);
 }

@@ -18,8 +18,8 @@ public class Server {
         serverSocket = new ServerSocket(port, 0, InetAddress.getLocalHost());
 
         Tunnel tunnel = new Tunnel("helios.se.ifmo.ru",
-                "s264448",
-                "eli307",
+                "*******",
+                "******",
                 2222,
                 "pg",
                 9080,
